@@ -1,4 +1,54 @@
-.frontpage {
-  background-color: blue;
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 400vw;
+  -webkit-transform: rotate(90deg) translateY(-100vh);
+          transform: rotate(90deg) translateY(-100vh);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.one {
+  background: #efdefe;
+}
+
+.two {
+  background: #a3f3d3;
+}
+
+.three {
+  background: #0bbaa0;
+}
+
+.four {
+  background: #00dfdf;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  -webkit-transform: rotate(-90deg) translateX(-100vh);
+          transform: rotate(-90deg) translateX(-100vh);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

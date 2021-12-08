@@ -1,28 +1,70 @@
 
-.slide {
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.frontpage {
     width: 100vw;
     height: 100vh;
+    background-color: aquamarine;
+}
+
+.slide {
+    width: 35vw;
+    height: 60vh;
   }
   .wrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 400vw;
+    height:100vh;
     transform: rotate(90deg) translateY(-100vh);
       transform-origin: top left;
+      padding-left: 200px;
   }
   .one {
     background: #efdefe;
   }
   .two {
     background: #a3f3d3;
+    width: 25vw;
+    height: 75vh;
   }
   .three {
     background: #0bbaa0;
   }
   .four {
     background: #00dfdf;
+    width: 25vw;
+    height: 75vh;
   }
-
+  .five {
+    background: #efdefe;
+  }
+  .six {
+    background: #a3f3d3;
+    width: 25vw;
+    height: 75vh;
+  }
+  .seven {
+    background: #0bbaa0;
+  }
+  .eight {
+    background: #00dfdf;
+    width: 25vw;
+    height: 75vh;
+  }
+  .nine {
+    background: #efdefe;
+  }
+  .ten {
+    background: #a3f3d3;
+    width: 25vw;
+    height: 75vh;
+  }
+  
     .outer-wrapper {
       width: 100vh;
       height: 100vw;
@@ -33,6 +75,10 @@
       position: absolute;
       scrollbar-width: none;
           -ms-overflow-style: none;
+     display: flex;
+     
+   
+      
     }
         ::-webkit-scrollbar {
           display:none;

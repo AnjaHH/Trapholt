@@ -1,6 +1,17 @@
-.slide {
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.frontpage {
   width: 100vw;
   height: 100vh;
+  background-color: aquamarine;
+}
+
+.slide {
+  width: 35vw;
+  height: 60vh;
 }
 
 .wrapper {
@@ -11,11 +22,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 400vw;
+  height: 100vh;
   -webkit-transform: rotate(90deg) translateY(-100vh);
           transform: rotate(90deg) translateY(-100vh);
   -webkit-transform-origin: top left;
           transform-origin: top left;
+  padding-left: 200px;
 }
 
 .one {
@@ -24,6 +40,8 @@
 
 .two {
   background: #a3f3d3;
+  width: 25vw;
+  height: 75vh;
 }
 
 .three {
@@ -32,6 +50,38 @@
 
 .four {
   background: #00dfdf;
+  width: 25vw;
+  height: 75vh;
+}
+
+.five {
+  background: #efdefe;
+}
+
+.six {
+  background: #a3f3d3;
+  width: 25vw;
+  height: 75vh;
+}
+
+.seven {
+  background: #0bbaa0;
+}
+
+.eight {
+  background: #00dfdf;
+  width: 25vw;
+  height: 75vh;
+}
+
+.nine {
+  background: #efdefe;
+}
+
+.ten {
+  background: #a3f3d3;
+  width: 25vw;
+  height: 75vh;
 }
 
 .outer-wrapper {
@@ -46,6 +96,9 @@
   position: absolute;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 ::-webkit-scrollbar {

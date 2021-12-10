@@ -5,6 +5,7 @@
 * {
     padding: 0%;
     margin: 0%;
+    text-decoration: none;
 }
 
 .frontpage {
@@ -14,22 +15,34 @@
 }
 
 #main {
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .menubar {
   width: 100vw;
-  height: 50px;
+  height: 140px;
   display: flex;
   justify-content: space-between;
   
+  .logo {
+    height: 100px;
+    width: 100px;
+    padding: 20px 0px 0px 20px;
+
+    img {
+      transition: transform .7s ease-in-out;
+    }
+    img:hover {
+      transform: rotate(360deg);
+    }
+  }
 
   .menubar2 {
-    height: 50px;
+    height: 140px;
     width: 400px;
     display: flex;
     justify-content: center;
-    align-items:flex-end;
+    align-items:center;
     text-decoration: none;
     gap: 20px; 
     
@@ -78,54 +91,342 @@ background-color: $quinary-color;
     flex-direction: row;
     align-items: center;
     width: 400vw;
-    height:100vh;
+    height:78vh;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
     padding-left: 200px;
     padding-right: 200px;
+    gap: 10px;
+    margin-right: -200px;
     
   }
   .one {
-    
+    opacity: 0.5;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      opacity: 1;
+    }
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 35vw;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+    img {
+      position: absolute;
+    }
   }
   .two {
     background: #a3f3d3;
     width: 25vw;
     height: 75vh;
-    
+    opacity: 0.5;
+    transition: 1s;
+
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 25vw;
+      height: 75vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    img {
+      width: 25vw;
+    height: 75vh;
+    position: absolute;
+    }
   }
   
   .three {
-    background: #0bbaa0;
+    opacity: 0.5;
+    transition: 1s;
+
+
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 35vw;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+    img {
+      position: absolute;
+    }
   }
   .four {
     background: #00dfdf;
     width: 25vw;
     height: 75vh;
+    opacity: 0.5;
+    transition: 1s;
+
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 25vw;
+      height: 75vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    img {
+      width: 25vw;
+    height: 75vh;
+    position: absolute;
+    }
   }
   .five {
     background: #efdefe;
+    opacity: 0.5;
+    transition: 1s;
+
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 35vw;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+    img {
+      position: absolute;
+    }
   }
   .six {
     background: #a3f3d3;
     width: 25vw;
     height: 75vh;
+    opacity: 0.5;
+    transition: 1s;
+
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 25vw;
+      height: 75vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    img {
+      width: 25vw;
+    height: 75vh;
+    position: absolute;
+    }
   }
   .seven {
     background: #0bbaa0;
+    opacity: 0.5;
+    transition: 1s;
+
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 35vw;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+    img {
+      position: absolute;
+    }
   }
   .eight {
     background: #00dfdf;
     width: 25vw;
     height: 75vh;
+    opacity: 0.5;
+    transition: 1s;
+
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 25vw;
+      height: 75vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    img {
+      width: 25vw;
+    height: 75vh;
+    position: absolute;
+    }
   }
+  
   .nine {
     background: #efdefe;
+    opacity: 0.5;
+    transition: 1s;
+
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 35vw;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+    img {
+      position: absolute;
+    }
   }
   .ten {
     background: #a3f3d3;
     width: 25vw;
     height: 75vh;
+    opacity: 0.5;
+    transition: 1s;
+
+    h1 {
+      position: relative;
+      color: $light-color;
+      font-family: $font-stack;
+      font-size: 50px;
+      opacity: 0;
+      transition: 0.1s;
+      width: 25vw;
+      height: 75vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    img {
+      width: 25vw;
+    height: 75vh;
+    position: absolute;
+    }
   }
 
   

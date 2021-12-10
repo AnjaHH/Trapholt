@@ -22,6 +22,7 @@
 * {
   padding: 0%;
   margin: 0%;
+  text-decoration: none;
 }
 
 .frontpage {
@@ -31,13 +32,13 @@
 }
 
 #main {
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .menubar {
   width: 100vw;
-  height: 50px;
+  height: 140px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,8 +47,26 @@
           justify-content: space-between;
 }
 
+.menubar .logo {
+  height: 100px;
+  width: 100px;
+  padding: 20px 0px 0px 20px;
+}
+
+.menubar .logo img {
+  -webkit-transition: -webkit-transform .7s ease-in-out;
+  transition: -webkit-transform .7s ease-in-out;
+  transition: transform .7s ease-in-out;
+  transition: transform .7s ease-in-out, -webkit-transform .7s ease-in-out;
+}
+
+.menubar .logo img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .menubar .menubar2 {
-  height: 50px;
+  height: 140px;
   width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,9 +74,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
   gap: 20px;
 }
@@ -112,59 +131,442 @@
       -ms-flex-align: center;
           align-items: center;
   width: 400vw;
-  height: 100vh;
+  height: 78vh;
   -webkit-transform: rotate(90deg) translateY(-100vh);
           transform: rotate(90deg) translateY(-100vh);
   -webkit-transform-origin: top left;
           transform-origin: top left;
   padding-left: 200px;
   padding-right: 200px;
+  gap: 10px;
+  margin-right: -200px;
+}
+
+.one {
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.one:hover {
+  opacity: 1;
+}
+
+.one h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 35vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.one h1:hover {
+  opacity: 1;
+}
+
+.one img {
+  position: absolute;
 }
 
 .two {
   background: #a3f3d3;
   width: 25vw;
   height: 75vh;
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.two h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 25vw;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.two h1:hover {
+  opacity: 1;
+}
+
+.two:hover {
+  opacity: 1;
+}
+
+.two img {
+  width: 25vw;
+  height: 75vh;
+  position: absolute;
 }
 
 .three {
-  background: #0bbaa0;
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.three h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 35vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.three h1:hover {
+  opacity: 1;
+}
+
+.three:hover {
+  opacity: 1;
+}
+
+.three img {
+  position: absolute;
 }
 
 .four {
   background: #00dfdf;
   width: 25vw;
   height: 75vh;
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.four h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 25vw;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.four h1:hover {
+  opacity: 1;
+}
+
+.four:hover {
+  opacity: 1;
+}
+
+.four img {
+  width: 25vw;
+  height: 75vh;
+  position: absolute;
 }
 
 .five {
   background: #efdefe;
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.five h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 35vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.five h1:hover {
+  opacity: 1;
+}
+
+.five:hover {
+  opacity: 1;
+}
+
+.five img {
+  position: absolute;
 }
 
 .six {
   background: #a3f3d3;
   width: 25vw;
   height: 75vh;
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.six h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 25vw;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.six h1:hover {
+  opacity: 1;
+}
+
+.six:hover {
+  opacity: 1;
+}
+
+.six img {
+  width: 25vw;
+  height: 75vh;
+  position: absolute;
 }
 
 .seven {
   background: #0bbaa0;
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.seven h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 35vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seven h1:hover {
+  opacity: 1;
+}
+
+.seven:hover {
+  opacity: 1;
+}
+
+.seven img {
+  position: absolute;
 }
 
 .eight {
   background: #00dfdf;
   width: 25vw;
   height: 75vh;
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.eight h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 25vw;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.eight h1:hover {
+  opacity: 1;
+}
+
+.eight:hover {
+  opacity: 1;
+}
+
+.eight img {
+  width: 25vw;
+  height: 75vh;
+  position: absolute;
 }
 
 .nine {
   background: #efdefe;
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.nine h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 35vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nine h1:hover {
+  opacity: 1;
+}
+
+.nine:hover {
+  opacity: 1;
+}
+
+.nine img {
+  position: absolute;
 }
 
 .ten {
   background: #a3f3d3;
   width: 25vw;
   height: 75vh;
+  opacity: 0.5;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.ten h1 {
+  position: relative;
+  color: #F2F2F2;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 25vw;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ten h1:hover {
+  opacity: 1;
+}
+
+.ten:hover {
+  opacity: 1;
+}
+
+.ten img {
+  width: 25vw;
+  height: 75vh;
+  position: absolute;
 }
 
 .outer-wrapper {

@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jura:wght@300;400;500;600;700&display=swap");
+.primary-color {
+  background-color: #0C3F6A;
+}
+
+.secondary-color {
+  background-color: #96C7C1;
+}
+
+.tertiary-color {
+  background-color: #FFF9B6;
+}
+
+.quaternary-color {
+  background-color: #F6DBE5;
+}
+
+.quinary-color {
+  background-color: #8AB6D6;
+}
+
 * {
   padding: 0%;
   margin: 0%;
@@ -6,12 +27,77 @@
 .frontpage {
   width: 100vw;
   height: 100vh;
-  background-color: aquamarine;
+  background-color: #F2F2F2;
+}
+
+#main {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menubar {
+  width: 100vw;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menubar .menubar2 {
+  height: 50px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.menubar .menubar2 a {
+  color: #0C3F6A;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+}
+
+.menubar .menubar2 a:hover {
+  border-bottom: 1px solid #0C3F6A;
+}
+
+.greenBackground {
+  background-color: #96C7C1;
+}
+
+.pinkBackground {
+  background-color: #F6DBE5;
+}
+
+.yellowBackground {
+  background-color: #FFF9B6;
+}
+
+.blueBackground {
+  background-color: #8AB6D6;
 }
 
 .slide {
   width: 35vw;
   height: 60vh;
+}
+
+.slide img {
+  width: 35vw;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .wrapper {
@@ -32,10 +118,7 @@
   -webkit-transform-origin: top left;
           transform-origin: top left;
   padding-left: 200px;
-}
-
-.one {
-  background: #efdefe;
+  padding-right: 200px;
 }
 
 .two {

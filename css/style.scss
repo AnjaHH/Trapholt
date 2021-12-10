@@ -1,18 +1,77 @@
 
+@import 'colours'; 
+@import 'typography';
+ 
 * {
     padding: 0%;
     margin: 0%;
 }
 
 .frontpage {
-    width: 100vw;
-    height: 100vh;
-    background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
+  background-color: $light-color;
+}
+
+#main {
+    transition: 1s;
+}
+
+.menubar {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  
+
+  .menubar2 {
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-decoration: none;
+    gap: 20px; 
+    
+    a {
+      color: $primary-color;
+      font-family: $font-stack;
+      text-decoration: none;
+
+      &:hover {
+        border-bottom: 1px solid $primary-color;
+      }
+    }
+  }
+}
+
+
+.greenBackground {
+  background-color: $secondary-color;
+
+}
+
+.pinkBackground {
+  background-color: $quaternary-color;
+}
+
+.yellowBackground {
+background-color: $tertiary-color;
+}
+
+.blueBackground {
+background-color: $quinary-color;
 }
 
 .slide {
     width: 35vw;
     height: 60vh;
+
+    img {
+      width: 35vw;
+      height: 60vh;
+      object-fit:cover;
+    }
   }
   .wrapper {
     display: flex;
@@ -21,17 +80,21 @@
     width: 400vw;
     height:100vh;
     transform: rotate(90deg) translateY(-100vh);
-      transform-origin: top left;
-      padding-left: 200px;
+    transform-origin: top left;
+    padding-left: 200px;
+    padding-right: 200px;
+    
   }
   .one {
-    background: #efdefe;
+    
   }
   .two {
     background: #a3f3d3;
     width: 25vw;
     height: 75vh;
+    
   }
+  
   .three {
     background: #0bbaa0;
   }
@@ -64,6 +127,8 @@
     width: 25vw;
     height: 75vh;
   }
+
+  
   
     .outer-wrapper {
       width: 100vh;

@@ -8,11 +8,16 @@
     margin: 0%;
     text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .frontpage {
   width: 100vw;
   height: 100vh;
   background-color: $light-color;
+  display: flex;
+  flex-direction: column;
 }
 
 #main {
@@ -25,6 +30,8 @@
   height: 140px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
   
   .logo {
     height: 100px;
@@ -59,6 +66,240 @@
     }
   }
 }
+
+// besøg os - css //
+
+.container1 {
+  width: 100vw;
+  height: auto;
+  background-color: $light-color;
+ display: flex;
+ flex-wrap: wrap;
+
+  .boks1 {
+    width: 100vw;
+    height: 300px;
+    background-color: $tertiary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-stack;
+    font-size: 125px;
+    color: $primary-color;
+  
+    p {
+     margin-bottom: -50px;
+     margin-top: 100px;
+    }
+  }
+  .boks2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    #hvid {
+      width: 50vw;
+      height: 100vh;
+      background-color: $light-color;
+    }
+
+    #gul {
+      width: 50vw;
+      height: 100vh;
+      background-color: $tertiary-color;
+    }
+    #gang {
+      background-image: url(/images/gang.JPG);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 400px;
+      height: 600px;
+      margin: 0px;
+      position: absolute;
+      background-position: center center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .åbningstider {
+      width: auto;
+      height: auto;
+      margin: 150px 20px 400px 300px;
+      color: $primary-color;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      
+
+      h2 {
+        font-family: $font-stack;
+        font-size: 40px;
+      }
+      p {
+        font-family: $font-stack1;
+        font-size: 20px;
+        
+      }
+    }
+  }
+  
+  .boks3 {
+    width: 100vw;
+    height: 450px;
+    background-color: $tertiary-color;
+    
+
+    #priser {
+    color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 75px;
+    margin-left: 150px;
+
+    h2 {
+      font-family: $font-stack;
+      font-size: 40px;
+    }
+    p {
+      font-family: $font-stack1;
+      font-size: 20px;
+      
+    }
+   } 
+  }
+  .boks4 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/bænk.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .boks5 {
+    width: 100vw;
+    height: 450px;
+    background-color: $tertiary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    #billede5 {
+      width: 50vw;
+      height: 50vh;
+      display: flex;
+      
+      align-items: center;
+      margin-left: 160px;
+
+      #dreng {
+        background-image: url(/images/dreng.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 400px;
+        height: 267px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    }
+
+    #tekst5 {
+      width: 50vw;
+      height: 50vh;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      p {
+        width: 40vw;
+        height: 50vh;
+        font-family: $font-stack1;
+        color: $primary-color;
+        margin-top: 110px;
+        margin-left: -50px;
+      }
+    }
+  }
+
+  .boks6 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    #tekst6 {
+      width: 50vw;
+      height: 100vh;
+      font-family: $font-stack1;
+      color: $primary-color;
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+
+      h2 {
+        font-family: $font-stack;
+        font-size: 40px;
+        padding-top: 100px;
+        padding-left: 170px;
+      }
+
+      p {
+        width: 25vw;
+        padding-left: 170px;
+      }
+    }
+
+    #boks61 {
+      width: 50vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+
+      #billede6 {
+      height: 63.16vh;
+      width: 50vw;
+      background-image: url(/images/familie.jpeg);
+      background-repeat: no-repeat;
+      background-size: contain;
+     
+      }
+  
+      #gulboks {
+        width: 50vw;
+        height: 40vh;
+        background-color: $tertiary-color;
+        font-family: $font-stack1;
+        color: $primary-color;
+        gap: 15px;
+        flex-direction: column;
+  
+        h2 {
+          font-family: $font-stack;
+          margin-top: 30px;
+          margin-left: 20px;
+        }
+        p {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  .boks7 {
+    width: 100vw;
+    height: 100vh;
+    background-color: $tertiary-color;
+  }
+}
+
+
 
 
 

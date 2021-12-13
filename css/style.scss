@@ -1,7 +1,8 @@
 
+@import 'slider'; 
 @import 'colors'; 
 @import 'typography';
-@import 'slider';
+
  
 * {
     padding: 0%;
@@ -16,8 +17,7 @@ html {
   width: 100vw;
   height: 100vh;
   background-color: $light-color;
-  display: flex;
-  flex-direction: column;
+
 }
 
 #main {
@@ -32,6 +32,8 @@ html {
   justify-content: space-between;
   position: fixed;
   top: 0;
+  z-index: 9999;
+  
   
   .logo {
     height: 100px;
@@ -54,6 +56,7 @@ html {
     align-items:center;
     text-decoration: none;
     gap: 20px; 
+
     
     a {
       color: $primary-color;
@@ -296,6 +299,22 @@ html {
     width: 100vw;
     height: 100vh;
     background-color: $tertiary-color;
+    color: $primary-color;
+
+    h2 {
+    font-family: $font-stack;
+    }
+    
+    p {
+    font-family: $font-stack1;
+    }
+  }
+
+  .boks8 {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    color: $primary-color;
   }
 }
 

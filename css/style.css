@@ -1,5 +1,10 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jura:wght@300;400;500;600;700&display=swap");
+
+.light-color {
+  background-color: #FAF9F5;
+}
+
 .primary-color {
   background-color: #0C3F6A;
 }
@@ -60,7 +65,7 @@
       -ms-flex-align: center;
           align-items: center;
   width: 400vw;
-  height: 78vh;
+  height: 117vh;
   -webkit-transform: rotate(90deg) translateY(-100vh);
           transform: rotate(90deg) translateY(-100vh);
   -webkit-transform-origin: top left;
@@ -68,6 +73,7 @@
   padding-left: 200px;
   padding-right: 200px;
   margin-right: -200px;
+  
 }
 
 .one {
@@ -542,13 +548,6 @@ html {
   width: 100vw;
   height: 100vh;
   background-color: #FAF9F5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 #main {
@@ -567,6 +566,7 @@ html {
           justify-content: space-between;
   position: fixed;
   top: 0;
+  z-index: 9999999;
 }
 
 .menubar .logo {

@@ -34,6 +34,7 @@ html {
   position: fixed;
   top: 0;
   z-index: 9999;
+  font-family: $font-stack;
   
   
   .logo {
@@ -57,6 +58,7 @@ html {
     align-items:center;
     text-decoration: none;
     gap: 20px; 
+    font-family: $font-stack;
 
     
     a {
@@ -88,10 +90,10 @@ html {
     justify-content: center;
     align-items: center;
     font-family: $font-stack;
-    font-size: 125px;
+    font-size: 80px;
     color: $primary-color;
   
-    p {
+    h2 {
      margin-bottom: -50px;
      margin-top: 100px;
     }
@@ -171,7 +173,7 @@ html {
     }
     p {
       font-family: $font-stack1;
-      font-size: 20px;
+      
       
     }
    } 
@@ -254,7 +256,7 @@ html {
       p {
         width: 30vw;
         padding-left: 160px;
-        padding-right: 160px;
+        
       }
     }
 
@@ -431,10 +433,10 @@ html {
   justify-content: center;
   align-items: center;
   font-family: $font-stack;
-  font-size: 125px;
+  font-size: 80px;
   color: $primary-color;
 
-  p {
+  h2 {
    margin-bottom: -50px;
    margin-top: 100px;
   }
@@ -455,31 +457,144 @@ html {
     width: 50vw;
     height: 100vh;
     background-color: $secondary-color;
-    }
+  }
  }
-
  .boks3 {
   width: 100vw;
-  height: 100vh;
+  height: 250px;
   background-color: $secondary-color;
+  color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+    h2 {
+      font-family: $font-stack;
+    }
+
+    p {
+      font-family: $font-stack1;
+      padding-left: 160px;
+      padding-right: 160px;
+      
+    }
  }
 
  .boks4 {
   width: 100vw;
-  height: 100vh;
+  height: 1000px;
   
+
+  #billede4 {
+    background-image: url(/images/høretelefoner.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 281px;
+    margin-left: 160px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  h2 {
+    font-family: $font-stack;
+    font-size: 40px;
+    padding-left: 160px;
+    padding-top: 30px;
+  }
+
+  p {
+    font-family: $font-stack1;
+    padding-left: 160px;
+    padding-top: 15px;
+    padding-right: 160px;
+  }
+
+  #booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  #knap {
+    background-color: $primary-color;
+      width: 300px;
+      height: 50px;;
+      margin-top: 20px;
+      text-decoration: none;
+      font-family: $font-stack;
+      color: $light-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      margin-bottom: 50px;
+   }
+  }
  }
 
  .boks5 {
   width: 100vw;
-  height: 100vh;
+  height: 600px;
   background-color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+
+  #grøn1 {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+
+    #tekst {
+    width: 50vw;
+    height: 300px;
+
+    h2 {
+      font-family: $font-stack;
+      padding-top: 30px;
+    }
+    p {
+      font-family: $font-stack1;
+      padding-top: 15px;
+    }
+    }
+    #billede5 {
+      width: 50vw;
+      height: 300px;
+      background-image: url(/images/feel.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 500px;
+      height: 278px;
+      margin-left: 700px;
+      margin-top: 70px;
+      position: absolute;
+    }
+  }
+
+  #grøn2 {
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-family: $font-stack1;
+    padding-right: 160px;
+    
+  }
+  }
  }
 
  .boks6{
   width: 100vw;
-  height: 100vh;
-  
+  height: 563px;
+  background-image: url(/images/interaktiv.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
   
  }
 
@@ -503,36 +618,178 @@ html {
 
  .boks8 {
   width: 100vw;
-  height: 100vh;
+  height: 600px;
   background-color: $secondary-color;
+  color: $primary-color;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  #billede8 {
+    background-image: url(/images/dinudstilling.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 233px;
+    width: 350px;
+    margin-left: 800px;
+    margin-top: 120px;
+    position: absolute;
+  }
+
+  #grøn {
+    width: 20vw;
+    height: 100vh;
+  }
+
+  #grøn1 {
+    width: 80vw;
+    height: 100vh;
+
+
+  h2 {
+    font-size: 40px;
+    font-family: $font-stack;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 160px;
+    padding-bottom: 10px;
+  }
+  #tekst8 {
+    padding-left: 30px;
+    padding-right: 550px;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    font-family: $font-stack1;
+  }
+  p {
+    padding-left: 30px;
+    padding-right: 160px;
+    padding-top: 15px;
+    font-family: $font-stack1;
+  }
+  }
  }
 
  .boks9 {
+  width: 10vw;
+  height: 105vh;
+  color: $primary-color;
+
+  #grøn {
+  background-color: $secondary-color;
   width: 100vw;
-  height: 100vh;
-  
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+
+  #billede9 {
+    background-image: url(/images/aktivitet.jpeg);
+    height: 50vh;
+    width: 70vw;
+  }
+
+  #tekst9 {
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: $font-stack1;
+  }
+  }
+  #hvid {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+
+  #hvid1 {
+    width: 20vw;
+    height: 100vh;
+  }
+  #hvid2 {
+    width: 80vw;
+    height: 100vh;
+  }
+  h2 {
+    font-family: $font-stack;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 160px;
+  }
+  p {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 160px;
+    padding-bottom: 30px;
+    font-family: $font-stack1;
+   }
+  }
  }
 
  .boks10 {
   width: 100vw;
-  height: 100vh;
+  height: 275px;
   background-color: $secondary-color;
+  color: $primary-color;
+  font-family: $font-stack1;
+  display: flex;
+  flex-direction: row;
+
+  #grøn {
+    width: 20vw;
+    height: 100vh;
+  }
+  #grøn1 {
+    width: 80vw;
+    height: 100vh;
+    
+  h2 {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: $font-stack;
+  }
+  p {
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: $font-stack1;
+  }
+  }
  }
 
  .boks11 {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
 
   #grøn {
-  width: 30vw;
+  width: 20vw;
   height: 100vh;
   background-color: $secondary-color;
   }
 
   #hvid {
-  width:70vw;
+  width:80vw;
   height: 100vh;
   background-color: $light-color;
+  color: $primary-color;
+
+  h2 {
+    font-family: $font-stack;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  p {
+    font-family: $font-stack1;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 160px;
+  }
   }
   
  }
@@ -540,6 +797,15 @@ html {
  .boks12 {
   width: 100vw;
   height: 100vh;
+  
+  #billede12 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/images/interview.jpg);
+    width: 100vw;
+    height: 100vh;
+    
+  }
  }
 } 
 

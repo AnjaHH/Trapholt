@@ -40,6 +40,15 @@
   background-color: #8AB6D6 !important;
 }
 
+p {
+  font-size: 15px;
+  color: #0C3F6A;
+}
+
+h2 {
+  color: #0C3F6A;
+}
+
 .slide {
   width: 35vw;
   height: 60vh;
@@ -558,6 +567,7 @@ html {
   position: fixed;
   top: 0;
   z-index: 9999;
+  font-family: "Bebas Neue", cursive;
 }
 
 .menubar .logo {
@@ -592,6 +602,7 @@ html {
           align-items: center;
   text-decoration: none;
   gap: 20px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .menubar .menubar2 a {
@@ -629,11 +640,11 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Bebas Neue", cursive;
-  font-size: 125px;
+  font-size: 80px;
   color: #0C3F6A;
 }
 
-.container1 .boks1 p {
+.container1 .boks1 h2 {
   margin-bottom: -50px;
   margin-top: 100px;
 }
@@ -733,7 +744,6 @@ html {
 
 .container1 .boks3 #priser p {
   font-family: "Jura", sans-serif;
-  font-size: 20px;
 }
 
 .container1 .boks4 {
@@ -847,7 +857,6 @@ html {
 .container1 .boks6 #tekst6 p {
   width: 30vw;
   padding-left: 160px;
-  padding-right: 160px;
 }
 
 .container1 .boks6 #boks61 {
@@ -1076,11 +1085,11 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Bebas Neue", cursive;
-  font-size: 125px;
+  font-size: 80px;
   color: #0C3F6A;
 }
 
-.container2 .boks1 p {
+.container2 .boks1 h2 {
   margin-bottom: -50px;
   margin-top: 100px;
 }
@@ -1110,24 +1119,174 @@ html {
 
 .container2 .boks3 {
   width: 100vw;
-  height: 100vh;
+  height: 250px;
   background-color: #96C7C1;
+  color: #0C3F6A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container2 .boks3 h2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.container2 .boks3 p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .container2 .boks4 {
   width: 100vw;
-  height: 100vh;
+  height: 1000px;
+}
+
+.container2 .boks4 #billede4 {
+  background-image: url(/images/høretelefoner.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 281px;
+  margin-left: 160px;
+  margin-top: 50px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container2 .boks4 h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  padding-left: 160px;
+  padding-top: 30px;
+}
+
+.container2 .boks4 p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 160px;
+}
+
+.container2 .boks4 #booking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container2 .boks4 #booking #knap {
+  background-color: #0C3F6A;
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  margin-bottom: 50px;
 }
 
 .container2 .boks5 {
   width: 100vw;
-  height: 100vh;
+  height: 600px;
   background-color: #96C7C1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container2 .boks5 #grøn1 {
+  width: 100vw;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container2 .boks5 #grøn1 #tekst {
+  width: 50vw;
+  height: 300px;
+}
+
+.container2 .boks5 #grøn1 #tekst h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-top: 30px;
+}
+
+.container2 .boks5 #grøn1 #tekst p {
+  font-family: "Jura", sans-serif;
+  padding-top: 15px;
+}
+
+.container2 .boks5 #grøn1 #billede5 {
+  width: 50vw;
+  height: 300px;
+  background-image: url(/images/feel.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  height: 278px;
+  margin-left: 700px;
+  margin-top: 70px;
+  position: absolute;
+}
+
+.container2 .boks5 #grøn2 {
+  width: 100vw;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container2 .boks5 #grøn2 p {
+  font-family: "Jura", sans-serif;
+  padding-right: 160px;
 }
 
 .container2 .boks6 {
   width: 100vw;
-  height: 100vh;
+  height: 563px;
+  background-image: url(/images/interaktiv.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .container2 .boks7 {
@@ -1149,39 +1308,233 @@ html {
 
 .container2 .boks8 {
   width: 100vw;
-  height: 100vh;
+  height: 600px;
   background-color: #96C7C1;
+  color: #0C3F6A;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container2 .boks8 #billede8 {
+  background-image: url(/images/dinudstilling.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 233px;
+  width: 350px;
+  margin-left: 800px;
+  margin-top: 120px;
+  position: absolute;
+}
+
+.container2 .boks8 #grøn {
+  width: 20vw;
+  height: 100vh;
+}
+
+.container2 .boks8 #grøn1 {
+  width: 80vw;
+  height: 100vh;
+}
+
+.container2 .boks8 #grøn1 h2 {
+  font-size: 40px;
+  font-family: "Bebas Neue", cursive;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-right: 160px;
+  padding-bottom: 10px;
+}
+
+.container2 .boks8 #grøn1 #tekst8 {
+  padding-left: 30px;
+  padding-right: 550px;
+  padding-top: 15px;
+  padding-bottom: 100px;
+  font-family: "Jura", sans-serif;
+}
+
+.container2 .boks8 #grøn1 p {
+  padding-left: 30px;
+  padding-right: 160px;
+  padding-top: 15px;
+  font-family: "Jura", sans-serif;
 }
 
 .container2 .boks9 {
+  width: 10vw;
+  height: 105vh;
+  color: #0C3F6A;
+}
+
+.container2 .boks9 #grøn {
+  background-color: #96C7C1;
   width: 100vw;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container2 .boks9 #grøn #billede9 {
+  background-image: url(/images/aktivitet.jpeg);
+  height: 50vh;
+  width: 70vw;
+}
+
+.container2 .boks9 #grøn #tekst9 {
+  height: 50vh;
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Jura", sans-serif;
+}
+
+.container2 .boks9 #hvid {
+  width: 100vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container2 .boks9 #hvid #hvid1 {
+  width: 20vw;
   height: 100vh;
+}
+
+.container2 .boks9 #hvid #hvid2 {
+  width: 80vw;
+  height: 100vh;
+}
+
+.container2 .boks9 #hvid h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 160px;
+}
+
+.container2 .boks9 #hvid p {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 160px;
+  padding-bottom: 30px;
+  font-family: "Jura", sans-serif;
 }
 
 .container2 .boks10 {
   width: 100vw;
-  height: 100vh;
+  height: 275px;
   background-color: #96C7C1;
+  color: #0C3F6A;
+  font-family: "Jura", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container2 .boks10 #grøn {
+  width: 20vw;
+  height: 100vh;
+}
+
+.container2 .boks10 #grøn1 {
+  width: 80vw;
+  height: 100vh;
+}
+
+.container2 .boks10 #grøn1 h2 {
+  padding-left: 30px;
+  padding-top: 30px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.container2 .boks10 #grøn1 p {
+  padding-left: 30px;
+  padding-top: 15px;
+  font-family: "Jura", sans-serif;
 }
 
 .container2 .boks11 {
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .container2 .boks11 #grøn {
-  width: 30vw;
+  width: 20vw;
   height: 100vh;
   background-color: #96C7C1;
 }
 
 .container2 .boks11 #hvid {
-  width: 70vw;
+  width: 80vw;
   height: 100vh;
   background-color: #FAF9F5;
+  color: #0C3F6A;
+}
+
+.container2 .boks11 #hvid h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.container2 .boks11 #hvid p {
+  font-family: "Jura", sans-serif;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 160px;
 }
 
 .container2 .boks12 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container2 .boks12 #billede12 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/images/interview.jpg);
   width: 100vw;
   height: 100vh;
 }

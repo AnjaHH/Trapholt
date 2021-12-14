@@ -2,6 +2,16 @@ $font-stack1: 'Jura', sans-serif;
 $font-stack: 'Bebas Neue', cursive;
 
 
+p {
+    font-size: 15px;
+    color: $primary-color;
+}
+
+h2 {
+    color: $primary-color;
+}
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jura:wght@300;400;500;600;700&display=swap');
 

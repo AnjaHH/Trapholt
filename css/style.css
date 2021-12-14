@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jura:wght@300;400;500;600;700&display=swap");
-
 .light-color {
   background-color: #FAF9F5;
 }
@@ -26,19 +25,19 @@
 }
 
 .greenBackground {
-  background-color: #96C7C1;
+  background-color: #96C7C1 !important;
 }
 
 .pinkBackground {
-  background-color: #F6DBE5;
+  background-color: #F6DBE5 !important;
 }
 
 .yellowBackground {
-  background-color: #FFF9B6;
+  background-color: #FFF9B6 !important;
 }
 
 .blueBackground {
-  background-color: #8AB6D6;
+  background-color: #8AB6D6 !important;
 }
 
 .slide {
@@ -73,7 +72,6 @@
   padding-left: 200px;
   padding-right: 200px;
   margin-right: -200px;
-  
 }
 
 .one {
@@ -86,8 +84,8 @@
 
 .one h1 {
   position: relative;
-  color: #FAF9F5;
   font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
   font-size: 50px;
   opacity: 0;
   -webkit-transition: 0.1s;
@@ -118,7 +116,6 @@
 }
 
 .two {
-  background: #a3f3d3;
   width: 25vw;
   height: 75vh;
   opacity: 0.5;
@@ -205,7 +202,6 @@
 }
 
 .four {
-  background: #00dfdf;
   width: 25vw;
   height: 75vh;
   opacity: 0.5;
@@ -292,7 +288,6 @@
 }
 
 .six {
-  background: #a3f3d3;
   width: 25vw;
   height: 75vh;
   opacity: 0.5;
@@ -338,7 +333,6 @@
 }
 
 .seven {
-  background: #0bbaa0;
   opacity: 0.5;
   -webkit-transition: 1s;
   transition: 1s;
@@ -380,7 +374,6 @@
 }
 
 .eight {
-  background: #00dfdf;
   width: 25vw;
   height: 75vh;
   opacity: 0.5;
@@ -426,7 +419,6 @@
 }
 
 .nine {
-  background: #efdefe;
   opacity: 0.5;
   -webkit-transition: 1s;
   transition: 1s;
@@ -468,7 +460,6 @@
 }
 
 .ten {
-  background: #a3f3d3;
   width: 25vw;
   height: 75vh;
   opacity: 0.5;
@@ -566,7 +557,7 @@ html {
           justify-content: space-between;
   position: fixed;
   top: 0;
-  z-index: 9999999;
+  z-index: 9999;
 }
 
 .menubar .logo {
@@ -832,7 +823,7 @@ html {
 }
 
 .container1 .boks6 #tekst6 {
-  width: 50vw;
+  width: 100vw;
   height: 100vh;
   font-family: "Jura", sans-serif;
   color: #0C3F6A;
@@ -849,13 +840,14 @@ html {
 .container1 .boks6 #tekst6 h2 {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
-  padding-top: 100px;
-  padding-left: 170px;
+  padding-top: 40px;
+  padding-left: 160px;
 }
 
 .container1 .boks6 #tekst6 p {
-  width: 25vw;
-  padding-left: 170px;
+  width: 30vw;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .container1 .boks6 #boks61 {
@@ -899,17 +891,124 @@ html {
 
 .container1 .boks6 #boks61 #gulboks h2 {
   font-family: "Bebas Neue", cursive;
-  margin-top: 30px;
-  margin-left: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
 .container1 .boks6 #boks61 #gulboks p {
-  margin-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
 }
 
 .container1 .boks7 {
   width: 100vw;
+  height: 850px;
+  background-color: #FFF9B6;
+  color: #0C3F6A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container1 .boks7 #billede7 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/images/skole.JPG);
+  width: 100vw;
+  height: 100vh;
+}
+
+.container1 .boks7 h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 160px;
+  padding-top: 30px;
+  font-size: 40px;
+  margin-top: -120px;
+}
+
+.container1 .boks7 p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-bottom: 30px;
+  padding-right: 160px;
+}
+
+.container1 .boks8 {
+  width: 100vw;
+  height: 400px;
+  background-color: #FAF9F5;
+  color: #0C3F6A;
+}
+
+.container1 .boks8 p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 30px;
+  padding-right: 160px;
+}
+
+.container1 .boks9 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.container1 .boks9 #hvid {
+  width: 60vw;
+  height: 100vh;
+  background-color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container1 .boks9 #gul {
+  width: 40vw;
   height: 100vh;
   background-color: #FFF9B6;
+  color: #0C3F6A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container1 .boks9 #gul h2 {
+  font-family: "Bebas Neue", cursive;
+  padding: 30px 100px 100px 30px;
+  font-size: 40px;
+}
+
+.container1 .boks9 #gul h3 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 30px;
+}
+
+.container1 .boks9 #gul p {
+  font-family: "Jura", sans-serif;
+  padding-left: 30px;
 }
 /*# sourceMappingURL=style.css.map */

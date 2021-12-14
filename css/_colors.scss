@@ -34,18 +34,18 @@ $quinary-color: #8AB6D6;
 
 
 .greenBackground {
-  background-color: $secondary-color;
+  background-color: $secondary-color !important;
 
 }
 
 .pinkBackground {
-  background-color: $quaternary-color;
+  background-color: $quaternary-color !important;
 }
 
 .yellowBackground {
-background-color: $tertiary-color;
+background-color: $tertiary-color !important;
 }
 
 .blueBackground {
-background-color: $quinary-color;
+background-color: $quinary-color !important;
 }

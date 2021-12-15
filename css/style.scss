@@ -52,7 +52,7 @@ html {
 
   .menubar2 {
     height: 140px;
-    width: 400px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -60,6 +60,7 @@ html {
     gap: 20px; 
     font-family: $font-stack;
 
+   
     
     a {
       color: $primary-color;
@@ -414,6 +415,11 @@ html {
     }
   }
 }
+
+
+
+
+
 
 
 
@@ -836,6 +842,11 @@ html {
   }
  }
 }
+
+
+
+
+
 
 
 
@@ -1277,3 +1288,799 @@ html {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+/* udstillinger- siden */
+
+.container4 {
+  width: 100vw;
+  height: auto;
+  background-color: $light-color;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+ 
+  .boks1 {
+   width: 100vw;
+   height: 300px;
+   background-color: $quinary-color;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: $font-stack;
+   font-size: 80px;
+   color: $primary-color;
+ 
+   h2 {
+    margin-bottom: -50px;
+    margin-top: 100px;
+   }
+  }
+ 
+   .boks2 {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   
+ 
+   #hvid {
+   width: 11vw;
+   height: 100vh;
+ 
+   video {
+     position: absolute;
+   }
+   }
+   #blå {
+     width: 78vw;
+     height: 100vh;
+     background-color: $quinary-color;
+   }
+
+   #hvid1 {
+    width: 11vw;
+    height: 100vh;
+   }
+  }
+
+  .boks3 {
+   width: 100vw;
+   height: 470px;
+   background-image: url(/images/art1.jpeg);
+   background-repeat: no-repeat;
+  background-size: cover;
+  }
+ 
+  .boks4 {
+   width: 100vw;
+   height: 1000px;
+   display: flex;
+   flex-direction: column;
+
+   #tekst {
+    width: 100vw;
+    height: 200px;
+   h2 {
+   font-family: $font-stack;
+   padding-left: 160px;
+   padding-top: 30px;
+   font-size: 40px;
+   }
+   p {
+     font-family: $font-stack1;
+     padding-left: 160px;
+     padding-top: 15px;
+     padding-right: 30px;
+   }
+  }
+   #blå {
+    width: 100vw;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: $quinary-color;
+
+    #skulptur {
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      width: 400px;
+      height: auto;
+      margin-left: 160px;
+      
+    }
+    h2 {
+    font-family: $font-stack;
+    padding-left: 160px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-top: 15px;
+    font-size: 40px;
+    }
+    p {
+      font-family: $font-stack1;
+      padding-left: 160px;
+      padding-top: 15px;
+      padding-right: 30px;
+    }
+    #knap {
+        background-color: $primary-color;
+        width: 100px;
+        height: 30px;;
+        text-decoration: none;
+        font-family: $font-stack;
+        color: $light-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-bottom: 15px; 
+        margin-left:160px ;
+    }
+   }
+
+  #kubeflex {
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      width: 400px;
+      height: auto;
+      margin-right: 160px;
+      
+    }
+    h2 {
+    font-family: $font-stack;
+    padding-right: 160px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 40px;
+    }
+    h3 {
+      font-family: $font-stack1;
+      padding-right: 160px;
+      padding-left: 30px;
+      color: $primary-color;
+    }
+    p {
+      font-family: $font-stack1;
+      padding-right: 160px;
+      padding-top: 15px;
+      padding-left: 30px;
+    }
+    #knap {
+      background-color: $primary-color;
+      width: 100px;
+      height: 30px;
+      text-decoration: none;
+      font-family: $font-stack;
+      color: $light-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      margin-bottom: 15px; 
+      margin-right:160px ;
+    }
+   }
+  }  
+ }
+  .boks5 {
+   width: 100vw;
+   height: 290px;
+   display: flex;
+   flex-direction: row;
+
+ 
+   #hvid {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    #dinudstilling {
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      width: 400px;
+      height: auto;
+      margin-left: 160px;
+      
+    }
+    h2 {
+    font-family: $font-stack;
+    padding-left: 160px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-top: 15px;
+    font-size: 40px;
+    }
+    p {
+      font-family: $font-stack1;
+      padding-left: 160px;
+      padding-top: 15px;
+      padding-right: 30px;
+    }
+    #knap {
+        background-color: $primary-color;
+        width: 100px;
+        height: 30px;;
+        text-decoration: none;
+        font-family: $font-stack;
+        color: $light-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-bottom: 15px; 
+        margin-left:160px ;
+    }
+   }
+
+  #richardm {
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      width: 400px;
+      height: auto;
+      margin-right: 160px;
+      
+    }
+    h2 {
+    font-family: $font-stack;
+    padding-right: 160px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 40px;
+    }
+    p {
+      font-family: $font-stack1;
+      padding-right: 160px;
+      padding-top: 15px;
+      padding-left: 30px;
+    }
+    #knap {
+      background-color: $primary-color;
+      width: 100px;
+      height: 30px;
+      text-decoration: none;
+      font-family: $font-stack;
+      color: $light-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      margin-bottom: 15px; 
+      margin-right:160px ;
+    }
+   }
+  }  
+  }
+  .boks6{
+   width: 100vw;
+   height: 200px;
+   background-color: $quinary-color;
+  
+    h2 {
+      font-family: $font-stack;
+      font-size: 40px;
+      padding-left: 160px;
+      padding-top: 30px;
+    }
+  
+    p {
+      font-family: $font-stack1;
+      padding-left: 160px;
+      padding-top: 15px;
+      padding-right: 160px;
+      
+   }
+  }
+ 
+  .boks7 {
+   width: 100vw;
+   height: auto;
+   
+   #vernerpanton {
+     background-image: url(/images/vernerpanton.jpeg);
+     width: 100vw;
+     height: 450px;
+     background-repeat: no-repeat;
+    background-size: cover;
+
+   }
+  }
+ 
+  .boks8 {
+   width: 100vw;
+   height: 1096px;
+   color: $primary-color;
+   display: flex;
+   flex-direction: row;
+ 
+   #blå {
+    width: 20vw;
+    height: 1096px;
+    background-color: $quinary-color;
+    
+    }
+    #hvid {
+    width: 80vw;
+    height: 100vh;
+
+    h2 {
+      font-family: $font-stack;
+      font-size: 40px;
+      padding-left: 30px;
+      padding-top: 30px;
+      padding-right: 160px;
+    }
+
+    h3 {
+      font-family: $font-stack1;
+      font-size: 20px;
+      padding-right: 160px;
+      padding-left: 30px;
+    }
+  
+    p {
+      font-family: $font-stack1;
+      padding-left: 30px;
+      padding-top: 15px;
+      padding-right: 160px;
+      padding-bottom: 30px;
+   }
+
+   #billede8 {
+     background-image: url(/images/vernerpanton2.jpeg);
+     width: 80vw;
+     height: 575px;
+     background-repeat: no-repeat;
+    background-size: contain;
+    background-color: $quinary-color;
+    
+   }
+    }
+   }
+ 
+  .boks9 {
+   width: 100vw;
+   height: 400px;
+   color: $primary-color;
+   background-color: $quinary-color;
+   display: flex;
+   flex-direction: row;
+
+   #blå {
+    width: 20vw;
+    height: 400px;
+    background-color: $quinary-color;
+   }
+ 
+   #tekst {
+    width: 80vw;
+   height: 400px;
+   color: $primary-color;
+   
+   h2 {
+     font-family: $font-stack;
+     font-size: 40px;
+     padding-left: 30px;
+     padding-top: 30px;
+     padding-right: 360px;
+   }
+   p {
+     padding: 15px 360px 30px 30px;
+     font-family: $font-stack1;
+    }
+    #knap {
+      background-color: $primary-color;
+      width: 300px;
+      height: 50px;
+      text-decoration: none;
+      font-family: $font-stack;
+      color: $light-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      margin-bottom: 15px; 
+      margin-left: 30px;
+    }
+    #billede9 {
+      background-image: url(/images/rodstol.png);
+      width: 300px;
+      height: 350px;
+      margin-left: 610px;
+      margin-top: -280px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      animation-name: stol;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction:alternate;
+      animation-timing-function: linear;
+      position: relative;
+   }
+   @keyframes stol {
+    from { 
+      transform: rotate(0deg); 
+  } to { 
+      transform: rotate(360deg);
+    }
+   }
+  }
+}
+ 
+  .boks10 {
+   width: 100vw;
+   height: 600px;
+   background-image: url(/images/art3.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+ 
+  .boks11 {
+   width: 100vw;
+   height: 550px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+   
+   h2 {
+    font-family: $font-stack;
+    font-size: 40px;
+    padding-left: 160px;
+    padding-top: 30px;
+    padding-right: 160px;
+  }
+
+  h3 {
+    font-family: $font-stack1;
+    font-size: 20px;
+    padding-right: 160px;
+    padding-left: 160px;
+    color: $primary-color;
+  }
+
+  p {
+    font-family: $font-stack1;
+    padding-left: 160px;
+    padding-top: 15px;
+    padding-right: 160px;
+    padding-bottom: 30px;
+ }
+
+  }
+  .boks12 {
+   width: 100vw;
+   height: 600px;
+   display: flex;
+   flex-direction: column;
+   
+   #tekst {
+    width: 100vw;
+    height: 260px;
+    background-color: $quinary-color;
+   
+   p {
+    font-family: $font-stack1;
+    padding-left: 160px;
+    padding-top: 30px;
+    padding-right: 160px;
+    padding-bottom: 30px;
+   }
+  }
+  #boks {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+
+    #hvid {
+      width: 70vw;
+      height: auto;
+      background-image: url(/images/art6.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #blå {
+      width: 30vw;
+      height: auto;
+      background-color: $quinary-color;
+    }
+  }
+  }
+
+  .boks13 {
+   width: 100vw;
+   height: 720px;
+
+   h2 {
+    font-family: $font-stack;
+    font-size: 40px;
+    padding-left: 160px;
+    padding-top: 30px;
+    padding-right: 160px;
+  }
+
+  h3 {
+    font-family: $font-stack1;
+    font-size: 20px;
+    padding-right: 160px;
+    padding-left: 160px;
+    color: $primary-color;
+  }
+
+  p {
+    font-family: $font-stack1;
+    padding-left: 160px;
+    padding-top: 15px;
+    padding-right: 160px;
+    padding-bottom: 30px;
+ }
+ #video {
+   padding-left: 160px;
+   padding-bottom: 15px;
+ }
+  }
+
+  .boks14 {
+    height: 700px;
+    width: 100vw;
+    background-image: url(/images/art5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .boks15 {
+    width: 100vw;
+    height: 1250px;
+    background-color: $quinary-color;
+    display: flex;
+    flex-direction: column;
+
+    #tekst {
+      width: 100vw;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        font-family: $font-stack;
+        font-size: 40px;
+        
+      }
+    }
+    #blå {
+      width: 100vw;
+      height: 550px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        background-color: $quinary-color;
+    
+        #erik {
+        width: 50vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        img {
+        width: 400px;
+        height: auto;
+        margin-left: 160px;
+          
+        }
+        h2 {
+        font-family: $font-stack;
+        padding-left: 160px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-top: 15px;
+        font-size: 40px;
+        }
+        p {
+        font-family: $font-stack1;
+        padding-left: 160px;
+        padding-top: 15px;
+        padding-right: 30px;
+        }
+        #knap {
+        background-color: $primary-color;
+        width: 100px;
+        height: 30px;;
+        text-decoration: none;
+        font-family: $font-stack;
+        color: $light-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-bottom: 15px; 
+        margin-left:160px ;
+        }
+       }
+    
+      #collect {
+        width: 50vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        img {
+        width: 400px;
+        height: auto;
+        margin-right: 160px;
+          
+        }
+        h2 {
+        font-family: $font-stack;
+        padding-right: 160px;
+        padding-top: 15px;
+        padding-left: 30px;
+        padding-top: 15px;
+        font-size: 40px;
+        }
+        h3 {
+        font-family: $font-stack1;
+        padding-right: 160px;
+        padding-left: 30px;
+        color: $primary-color;
+        }
+        p {
+        font-family: $font-stack1;
+        padding-right: 160px;
+        padding-top: 15px;
+        padding-left: 30px;
+        }
+        #knap {
+        background-color: $primary-color;
+        width: 100px;
+        height: 30px;
+        text-decoration: none;
+        font-family: $font-stack;
+        color: $light-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-bottom: 15px; 
+        margin-right:160px ;
+        }
+       }
+     }
+     #blå1 {
+      width: 100vw;
+      height: 550px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      background-color: $quinary-color;
+     
+       #touch {
+        width: 50vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        img {
+        width: 400px;
+        height: auto;
+        margin-left: 160px;
+          
+        }
+        h2 {
+        font-family: $font-stack;
+        padding-left: 160px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-top: 15px;
+        font-size: 40px;
+        }
+        p {
+        font-family: $font-stack1;
+        padding-left: 160px;
+        padding-top: 15px;
+        padding-right: 30px;
+        }
+        #knap {
+        background-color: $primary-color;
+        width: 100px;
+        height: 30px;;
+        text-decoration: none;
+        font-family: $font-stack;
+        color: $light-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-bottom: 15px; 
+        margin-left:160px ;
+        }
+       }
+      }
+    }  
+
+    .boks16 {
+      width: 100vw;
+      height: 500px;
+      background-image: url(/images/art6.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .boks17 {
+      width: 100vw;
+      height:auto;
+      display: flex;
+      flex-direction: row;
+
+      #blå {
+        width: 30vw;
+        height: 735px;
+        background-color: $quinary-color;
+      }
+      #hvid {
+        width: 70vw;
+        height: 200px;
+
+        h2 {
+          font-family: $font-stack;
+          padding-left: 30px;
+          padding-top: 30px;
+          padding-right: 160px;
+          font-size: 40px;
+          }
+          p {
+          font-family: $font-stack1;
+          padding: 15px 160px 50px 30px;
+          }
+
+        #billede17 {
+        background-image: url(/images/art2.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+     
+        width: 70vw;
+        height: 472px;
+        background-color: $quinary-color;
+        margin-top: 30px;
+        }
+      }
+    }
+ }

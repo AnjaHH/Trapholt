@@ -590,7 +590,7 @@ html {
 
 .menubar .menubar2 {
   height: 140px;
-  width: 400px;
+  width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2182,5 +2182,1030 @@ html {
   width: 900px;
   height: 600px;
   margin-left: auto;
+}
+
+/* udstillinger- siden */
+.container4 {
+  width: 100vw;
+  height: auto;
+  background-color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks1 {
+  width: 100vw;
+  height: 300px;
+  background-color: #8AB6D6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  color: #0C3F6A;
+}
+
+.container4 .boks1 h2 {
+  margin-bottom: -50px;
+  margin-top: 100px;
+}
+
+.container4 .boks2 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container4 .boks2 #hvid {
+  width: 11vw;
+  height: 100vh;
+}
+
+.container4 .boks2 #hvid video {
+  position: absolute;
+}
+
+.container4 .boks2 #blå {
+  width: 78vw;
+  height: 100vh;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks2 #hvid1 {
+  width: 11vw;
+  height: 100vh;
+}
+
+.container4 .boks3 {
+  width: 100vw;
+  height: 470px;
+  background-image: url(/images/art1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container4 .boks4 {
+  width: 100vw;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks4 #tekst {
+  width: 100vw;
+  height: 200px;
+}
+
+.container4 .boks4 #tekst h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 160px;
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+.container4 .boks4 #tekst p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+.container4 .boks4 #blå {
+  width: 100vw;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks4 #blå #skulptur {
+  width: 50vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks4 #blå #skulptur img {
+  width: 400px;
+  height: auto;
+  margin-left: 160px;
+}
+
+.container4 .boks4 #blå #skulptur h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+  font-size: 40px;
+}
+
+.container4 .boks4 #blå #skulptur p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+.container4 .boks4 #blå #skulptur #knap {
+  background-color: #0C3F6A;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-left: 160px;
+}
+
+.container4 .boks4 #blå #kubeflex {
+  width: 50vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks4 #blå #kubeflex img {
+  width: 400px;
+  height: auto;
+  margin-right: 160px;
+}
+
+.container4 .boks4 #blå #kubeflex h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-right: 160px;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 40px;
+}
+
+.container4 .boks4 #blå #kubeflex h3 {
+  font-family: "Jura", sans-serif;
+  padding-right: 160px;
+  padding-left: 30px;
+  color: #0C3F6A;
+}
+
+.container4 .boks4 #blå #kubeflex p {
+  font-family: "Jura", sans-serif;
+  padding-right: 160px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.container4 .boks4 #blå #kubeflex #knap {
+  background-color: #0C3F6A;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-right: 160px;
+}
+
+.container4 .boks5 {
+  width: 100vw;
+  height: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container4 .boks5 #hvid {
+  width: 100vw;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container4 .boks5 #hvid #dinudstilling {
+  width: 50vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks5 #hvid #dinudstilling img {
+  width: 400px;
+  height: auto;
+  margin-left: 160px;
+}
+
+.container4 .boks5 #hvid #dinudstilling h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+  font-size: 40px;
+}
+
+.container4 .boks5 #hvid #dinudstilling p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+.container4 .boks5 #hvid #dinudstilling #knap {
+  background-color: #0C3F6A;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-left: 160px;
+}
+
+.container4 .boks5 #hvid #richardm {
+  width: 50vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks5 #hvid #richardm img {
+  width: 400px;
+  height: auto;
+  margin-right: 160px;
+}
+
+.container4 .boks5 #hvid #richardm h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-right: 160px;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 40px;
+}
+
+.container4 .boks5 #hvid #richardm p {
+  font-family: "Jura", sans-serif;
+  padding-right: 160px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.container4 .boks5 #hvid #richardm #knap {
+  background-color: #0C3F6A;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-right: 160px;
+}
+
+.container4 .boks6 {
+  width: 100vw;
+  height: 200px;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks6 h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  padding-left: 160px;
+  padding-top: 30px;
+}
+
+.container4 .boks6 p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 160px;
+}
+
+.container4 .boks7 {
+  width: 100vw;
+  height: auto;
+}
+
+.container4 .boks7 #vernerpanton {
+  background-image: url(/images/vernerpanton.jpeg);
+  width: 100vw;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container4 .boks8 {
+  width: 100vw;
+  height: 1096px;
+  color: #0C3F6A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container4 .boks8 #blå {
+  width: 20vw;
+  height: 1096px;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks8 #hvid {
+  width: 80vw;
+  height: 100vh;
+}
+
+.container4 .boks8 #hvid h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 160px;
+}
+
+.container4 .boks8 #hvid h3 {
+  font-family: "Jura", sans-serif;
+  font-size: 20px;
+  padding-right: 160px;
+  padding-left: 30px;
+}
+
+.container4 .boks8 #hvid p {
+  font-family: "Jura", sans-serif;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 160px;
+  padding-bottom: 30px;
+}
+
+.container4 .boks8 #hvid #billede8 {
+  background-image: url(/images/vernerpanton2.jpeg);
+  width: 80vw;
+  height: 575px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks9 {
+  width: 100vw;
+  height: 400px;
+  color: #0C3F6A;
+  background-color: #8AB6D6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container4 .boks9 #blå {
+  width: 20vw;
+  height: 400px;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks9 #tekst {
+  width: 80vw;
+  height: 400px;
+  color: #0C3F6A;
+}
+
+.container4 .boks9 #tekst h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 360px;
+}
+
+.container4 .boks9 #tekst p {
+  padding: 15px 360px 30px 30px;
+  font-family: "Jura", sans-serif;
+}
+
+.container4 .boks9 #tekst #knap {
+  background-color: #0C3F6A;
+  width: 300px;
+  height: 50px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.container4 .boks9 #tekst #billede9 {
+  background-image: url(/images/rodstol.png);
+  width: 300px;
+  height: 350px;
+  margin-left: 610px;
+  margin-top: -280px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  -webkit-animation-name: stol;
+          animation-name: stol;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  position: relative;
+}
+
+@-webkit-keyframes stol {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes stol {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.container4 .boks10 {
+  width: 100vw;
+  height: 600px;
+  background-image: url(/images/art3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container4 .boks11 {
+  width: 100vw;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks11 h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  padding-left: 160px;
+  padding-top: 30px;
+  padding-right: 160px;
+}
+
+.container4 .boks11 h3 {
+  font-family: "Jura", sans-serif;
+  font-size: 20px;
+  padding-right: 160px;
+  padding-left: 160px;
+  color: #0C3F6A;
+}
+
+.container4 .boks11 p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 160px;
+  padding-bottom: 30px;
+}
+
+.container4 .boks12 {
+  width: 100vw;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks12 #tekst {
+  width: 100vw;
+  height: 260px;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks12 #tekst p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 30px;
+  padding-right: 160px;
+  padding-bottom: 30px;
+}
+
+.container4 .boks12 #boks {
+  width: 100vw;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container4 .boks12 #boks #hvid {
+  width: 70vw;
+  height: auto;
+  background-image: url(/images/art6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container4 .boks12 #boks #blå {
+  width: 30vw;
+  height: auto;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks13 {
+  width: 100vw;
+  height: 720px;
+}
+
+.container4 .boks13 h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  padding-left: 160px;
+  padding-top: 30px;
+  padding-right: 160px;
+}
+
+.container4 .boks13 h3 {
+  font-family: "Jura", sans-serif;
+  font-size: 20px;
+  padding-right: 160px;
+  padding-left: 160px;
+  color: #0C3F6A;
+}
+
+.container4 .boks13 p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 160px;
+  padding-bottom: 30px;
+}
+
+.container4 .boks13 #video {
+  padding-left: 160px;
+  padding-bottom: 15px;
+}
+
+.container4 .boks14 {
+  height: 700px;
+  width: 100vw;
+  background-image: url(/images/art5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container4 .boks15 {
+  width: 100vw;
+  height: 1250px;
+  background-color: #8AB6D6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks15 #tekst {
+  width: 100vw;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container4 .boks15 #tekst h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+}
+
+.container4 .boks15 #blå {
+  width: 100vw;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks15 #blå #erik {
+  width: 50vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks15 #blå #erik img {
+  width: 400px;
+  height: auto;
+  margin-left: 160px;
+}
+
+.container4 .boks15 #blå #erik h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+  font-size: 40px;
+}
+
+.container4 .boks15 #blå #erik p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+.container4 .boks15 #blå #erik #knap {
+  background-color: #0C3F6A;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-left: 160px;
+}
+
+.container4 .boks15 #blå #collect {
+  width: 50vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks15 #blå #collect img {
+  width: 400px;
+  height: auto;
+  margin-right: 160px;
+}
+
+.container4 .boks15 #blå #collect h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-right: 160px;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 40px;
+}
+
+.container4 .boks15 #blå #collect h3 {
+  font-family: "Jura", sans-serif;
+  padding-right: 160px;
+  padding-left: 30px;
+  color: #0C3F6A;
+}
+
+.container4 .boks15 #blå #collect p {
+  font-family: "Jura", sans-serif;
+  padding-right: 160px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.container4 .boks15 #blå #collect #knap {
+  background-color: #0C3F6A;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-right: 160px;
+}
+
+.container4 .boks15 #blå1 {
+  width: 100vw;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks15 #blå1 #touch {
+  width: 50vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container4 .boks15 #blå1 #touch img {
+  width: 400px;
+  height: auto;
+  margin-left: 160px;
+}
+
+.container4 .boks15 #blå1 #touch h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+  font-size: 40px;
+}
+
+.container4 .boks15 #blå1 #touch p {
+  font-family: "Jura", sans-serif;
+  padding-left: 160px;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+.container4 .boks15 #blå1 #touch #knap {
+  background-color: #0C3F6A;
+  width: 100px;
+  height: 30px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: #FAF9F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-left: 160px;
+}
+
+.container4 .boks16 {
+  width: 100vw;
+  height: 500px;
+  background-image: url(/images/art6.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container4 .boks17 {
+  width: 100vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container4 .boks17 #blå {
+  width: 30vw;
+  height: 735px;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks17 #hvid {
+  width: 70vw;
+  height: 200px;
+}
+
+.container4 .boks17 #hvid h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 160px;
+  font-size: 40px;
+}
+
+.container4 .boks17 #hvid p {
+  font-family: "Jura", sans-serif;
+  padding: 15px 160px 50px 30px;
+}
+
+.container4 .boks17 #hvid #billede17 {
+  background-image: url(/images/art2.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 70vw;
+  height: 472px;
+  background-color: #8AB6D6;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */

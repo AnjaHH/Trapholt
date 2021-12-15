@@ -155,7 +155,7 @@ html {
   
   .boks3 {
     width: 100vw;
-    height: 450px;
+    height: 400px;
     background-color: $tertiary-color;
     
 
@@ -415,6 +415,10 @@ html {
   }
 }
 
+
+
+
+
 /* Aktiviteter - side */
 
 .container2 {
@@ -447,10 +451,15 @@ html {
   height: 100vh;
   display: flex;
   flex-direction: row;
+  position: relative;
 
   #hvid {
   width: 50vw;
   height: 100vh;
+
+  video {
+    position: absolute;
+  }
 
   }
   #grøn {
@@ -520,7 +529,7 @@ html {
     background-color: $primary-color;
       width: 300px;
       height: 50px;;
-      margin-top: 20px;
+      margin-top: 30px;
       text-decoration: none;
       font-family: $font-stack;
       color: $light-color;
@@ -535,20 +544,20 @@ html {
 
  .boks5 {
   width: 100vw;
-  height: 600px;
+  height: 500px;
   background-color: $secondary-color;
   display: flex;
   flex-direction: column;
 
   #grøn1 {
     width: 100vw;
-    height: 400px;
+    height: 275px;
     display: flex;
     flex-direction: row;
 
     #tekst {
     width: 50vw;
-    height: 300px;
+    height: 275px;
 
     h2 {
       font-family: $font-stack;
@@ -561,7 +570,7 @@ html {
     }
     #billede5 {
       width: 50vw;
-      height: 300px;
+      height: 275px;
       background-image: url(/images/feel.jpg);
       background-repeat: no-repeat;
       background-size: contain;
@@ -576,14 +585,12 @@ html {
 
   #grøn2 {
   width: 100vw;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100px;
 
   p {
     font-family: $font-stack1;
     padding-right: 160px;
+   padding-bottom: 30px;
     
   }
   }
@@ -596,12 +603,6 @@ html {
   background-repeat: no-repeat;
   background-size: contain;
   
- }
-
- .boks7 {
-  width: 100vw;
-  height: 100vh;
-
   #grøn {
   width: 30vw;
   height: 100vh;
@@ -613,7 +614,6 @@ html {
   height: 100vh;
   background-color: $light-color;
   }
-  
  }
 
  .boks8 {
@@ -697,6 +697,12 @@ html {
     align-items: center;
     flex-direction: column;
     font-family: $font-stack1;
+
+    h2 {
+      font-size: 20px;
+      font-family: $font-stack1;
+      padding-left: 8px;
+    }
   }
   }
   #hvid {
@@ -790,23 +796,484 @@ html {
     padding-top: 20px;
     padding-right: 160px;
   }
-  }
-  
+  } 
  }
 
  .boks12 {
   width: 100vw;
+  height: 600px;
+  
+  #billede12 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/interview.jpg);
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    
+    #tekst1 {
+    width: 20vw;
+    height: 600px;
+    }
+    #tekst2 {
+    width: 80vw;
+    height: 200px;
+    padding-top: 150px;
+    color: $primary-color;
+    font-family: $font-stack1;
+    
+    h2 {
+    color: $primary-color;
+    font-family: $font-stack1;
+    padding-left: 30px;
+    font-size: 20px;
+    }
+    p {
+    padding-left: 30px;
+    }
+    }
+  }
+ }
+}
+
+
+
+
+
+
+
+/* Info - siden */
+
+.container3 {
+ width: 100vw;
+ height: auto;
+ background-color: $light-color;
+ display: flex;
+ flex-wrap: nowrap;
+ flex-direction: column;
+
+ .boks1 {
+  width: 100vw;
+  height: 300px;
+  background-color: $quaternary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-stack;
+  font-size: 80px;
+  color: $primary-color;
+
+  h2 {
+   margin-bottom: -50px;
+   margin-top: 100px;
+  }
+ }
+
+  .boks2 {
+  width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  #hvid {
+  width: 30vw;
+  height: 100vh;
+
+  video {
+    position: absolute;
+  }
+  }
+  #pink {
+    width: 70vw;
+    height: 100vh;
+    background-color: $quaternary-color;
+
+    h2 {
+      color: $primary-color;
+      font-family: $font-stack;
+      font-size: 40px;
+      padding: 500px 160px 30px 30px;
+      }
+  }
+ }
+ .boks3 {
+  width: 100vw;
+  height: 470px;
+  background-color: $quaternary-color;
+  color: $primary-color;
+
+    p {
+      font-family: $font-stack1;
+      padding-left: 160px;
+      padding-right: 160px;
+      padding-top: 30px;
+      
+    }
+ }
+
+ .boks4 {
+  width: 100vw;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+
+  #billede4 {
+  width: 100vw;
+  height: 600px;
+  background-image: url(/images/art4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+
+  #tekst {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+
+  #pink {
+  width: 50vw;
+  height: 300px;
+  background-color: $quaternary-color;
+  color: $primary-color;
+  
+  h2 {
+  font-family: $font-stack;
+  padding-left: 160px;
+  padding-top: 30px;
+  font-size: 40px;
+  }
+  p {
+    font-family: $font-stack1;
+    padding-left: 160px;
+    padding-top: 15px;
+    padding-right: 30px;
+  }
+  }
+  #hvid {
+  width: 50vw;
+  height: 300px;
+
+  #gulcirkel {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: $tertiary-color;
+    position:relative ;
+    margin-top: 100px;
+    margin-left: 200px;
+    animation-name: gulcirkel;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    
+  }
+  @keyframes gulcirkel {
+    0%   {left:0px; top:0px;} 
+    50%  {left:50px; top:50px;}
+    100% {left:0px; top:100px;}
+  }
+
+  #grøncirkel {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: $secondary-color;
+    position:relative ;
+    margin-top: -90px;
+    margin-left: 300px;
+    animation-name: grøncirkel;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function: linear;
+  }
+  @keyframes grøncirkel {
+    0%   {left:0px; top:0px;} 
+    50%  {left:50px; top:50px;}
+    100% {left:0px; top:80px;}
+  }
+   
+    #billede7 {
+      width: 200px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: -120px;
+      margin-left: 160px;
+     animation-name: logo;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+     animation-direction:alternate;
+     animation-timing-function: linear;
+     position: relative;
+   }
+   @keyframes logo {
+     0%   {left:0px; top:0px;} 
+     50%  {left:20px; top:20px;}
+     100% {left:40px; top:40px;}
+    }
+   }
+  }
+ }
+ .boks5 {
+  width: 100vw;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+
+  #tekst1 {
+  width: 50vw;
+  height: 450px;
+  background-color: $quaternary-color;
+
+  h2 {
+    font-family: $font-stack1;
+    font-size: 20px;
+    padding-left: 160px;
+    padding-top: 30px;
+  }
+
+  p {
+    font-family: $font-stack1;
+    padding-left: 160px;
+    padding-top: 15px;
+    padding-right: 30px;
+  }
+ }
+ #tekst2 {
+  width: 50vw;
+  height: 450px;
+
+  h2 {
+    font-family: $font-stack1;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 125px;
+  }
+
+  p {
+    font-family: $font-stack1;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-right: 160px;
+ }
+    #knap {
+    background-color: $primary-color;
+    width: 300px;
+    height: 50px;;
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: $font-stack;
+    color: $light-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 50px; 
+    margin-left:50px ;
+   }
+  }
+ }
+ .boks6{
+  width: 100vw;
+  height: 563px;
+  background-image: url(/images/cafe.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .boks7 {
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  h2 {
+    font-family: $font-stack;
+    font-size: 40px;
+    padding-top: 30px;
+  }
+  p {
+    font-family: $font-stack1;
+    padding: 15px 160px 30px 160px;
+  }
+ }
+
+ .boks8 {
+  width: 100vw;
+  height: 700px;
+  color: $primary-color;
+  display: flex;
+  flex-direction: row;
+
+  #hvid {
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #billede8 {
+      background-image: url(/images/menu.jpeg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      height: 700px;
+      width: 495px;
+      margin-bottom: 100px;
+    
+    }
+   }
+  }
+
+ .boks9 {
+  width: 100vw;
+  height: 900px;
+  color: $primary-color;
+
+  #tekst {
+  width: 100vw;
+  height: 900px;
+  color: $primary-color;
+  display: flex;
+  flex-direction: row;
+  
+  #pink {
+  background-color: $quaternary-color;
+  width: 50vw;
+  height: 900px;
+
+  h2 {
+    font-family: $font-stack1;
+    font-size: 20px;
+    padding-left: 160px;
+    padding-top: 30px;
+    padding-right: 30px;
+  }
+  p {
+    padding-left: 160px;
+    padding-top: 15px;
+    padding-right: 30px;
+    font-family: $font-stack1;
+   }
+   #billede9 {
+    background-image: url(/images/Refood.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 144px;
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 50px;
+   }
+  }
+}
+  #hvid {
+  width: 50vw;
+  height: 900px;
+  
+  h2 {
+    font-family: $font-stack1;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 160px;
+  }
+  p {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 160px;
+    padding-bottom: 30px;
+    font-family: $font-stack1;
+   }
+   #knap {
+    background-color: $primary-color;
+    width: 300px;
+    height: 50px;;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: $font-stack;
+    color: $light-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 15px; 
+    margin-left:50px ;
+   }
+  }
+ }
+
+ .boks10 {
+  width: 100vw;
+  height: 600px;
+  background-image: url(/images/designbutik.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+
+ .boks11 {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+
+
+  h2 {
+    font-family: $font-stack;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  h3 {
+    font-family: $font-stack1;
+    font-size: 20px;
+    color: $primary-color;
+    padding-top: 50px;
+  }
+  p {
+    font-family: $font-stack1;
+   padding-left: 160px;
+    padding-top: 20px;
+    padding-right: 160px;
+  }
+  #knap {
+    background-color: $primary-color;
+    width: 300px;
+    height: 50px;;
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: $font-stack;
+    color: $light-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 15px; 
+    margin-left:50px ;
+   }
+ }
+
+ .boks12 {
+  width: 100vw;
+  height: 600px;
+  background-color: $quaternary-color;
   
   #billede12 {
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/images/interview.jpg);
-    width: 100vw;
-    height: 100vh;
-    
+    background-image: url(/images/butik.JPG);
+    width: 900px;
+    height: 600px;
+    margin-left: auto;
+    }
   }
- }
-} 
-
-
+}

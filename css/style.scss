@@ -204,7 +204,7 @@ html {
       margin-left: 160px;
 
       #dreng {
-        background-image: url(/images/dreng.jpeg);
+        background-image: url(/images/dreng.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 400px;
@@ -273,7 +273,7 @@ html {
       #billede6 {
       height: 63.16vh;
       width: 50vw;
-      background-image: url(/images/familie.jpeg);
+      background-image: url(/images/familie.jpg);
       background-repeat: no-repeat;
       background-size: contain;
      
@@ -502,7 +502,7 @@ html {
   
 
   #billede4 {
-    background-image: url(/images/høretelefoner.jpeg);
+    background-image: url(/images/høretelefoner.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 500px;
@@ -605,7 +605,7 @@ html {
  .boks6{
   width: 100vw;
   height: 563px;
-  background-image: url(/images/interaktiv.jpeg);
+  background-image: url(/images/interaktiv.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   
@@ -632,7 +632,7 @@ html {
   flex-direction: row;
 
   #billede8 {
-    background-image: url(/images/dinudstilling.jpeg);
+    background-image: url(/images/dinudstilling.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -690,7 +690,7 @@ html {
   flex-direction: row;
 
   #billede9 {
-    background-image: url(/images/aktivitet.jpeg);
+    background-image: url(/images/aktivitet.jpg);
     height: 50vh;
     width: 70vw;
   }
@@ -933,7 +933,7 @@ html {
   #billede4 {
   width: 100vw;
   height: 600px;
-  background-image: url(/images/art4.jpeg);
+  background-image: url(/images/art4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -1093,7 +1093,7 @@ html {
  .boks6{
   width: 100vw;
   height: 563px;
-  background-image: url(/images/cafe.jpeg);
+  background-image: url(/images/cafe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
  }
@@ -1131,7 +1131,7 @@ html {
     align-items: center;
 
     #billede8 {
-      background-image: url(/images/menu.jpeg);
+      background-image: url(/images/menu.jpg);
       background-repeat: no-repeat;
       background-size: contain;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1174,7 +1174,7 @@ html {
     font-family: $font-stack1;
    }
    #billede9 {
-    background-image: url(/images/Refood.jpeg);
+    background-image: url(/images/Refood.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1224,7 +1224,7 @@ html {
  .boks10 {
   width: 100vw;
   height: 600px;
-  background-image: url(/images/designbutik.png);
+  background-image: url(/images/designbutik.jpg);
   background-repeat: no-repeat;
   background-size: contain;
  }
@@ -1277,12 +1277,45 @@ html {
   width: 100vw;
   height: 600px;
   background-color: $quaternary-color;
+  display: flex;
+  flex-direction: row;
+
+  #pink {
+    width: 30vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ h2 {
+    font-family: $font-stack;
+    font-size: 40px;
+    
+    padding-top: 30px;
+  }
+    #knap {
+      background-color: $primary-color;
+      width: 200px;
+      height: 50px;;
+      margin-top: 30px;
+      text-decoration: none;
+      font-family: $font-stack;
+      color: $light-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      margin-bottom: 15px; 
+      
+     }
+  }
   
   #billede12 {
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(/images/butik.JPG);
-    width: 900px;
+    width: 70vw;
     height: 600px;
     margin-left: auto;
     }
@@ -1354,7 +1387,7 @@ html {
   .boks3 {
    width: 100vw;
    height: 470px;
-   background-image: url(/images/art1.jpeg);
+   background-image: url(/images/art1.jpg);
    background-repeat: no-repeat;
   background-size: cover;
   }
@@ -1609,7 +1642,7 @@ html {
    height: auto;
    
    #vernerpanton {
-     background-image: url(/images/vernerpanton.jpeg);
+     background-image: url(/images/vernerpanton.jpg);
      width: 100vw;
      height: 450px;
      background-repeat: no-repeat;
@@ -1659,7 +1692,7 @@ html {
    }
 
    #billede8 {
-     background-image: url(/images/vernerpanton2.jpeg);
+     background-image: url(/images/vernerpanton2.jpg);
      width: 80vw;
      height: 575px;
      background-repeat: no-repeat;
@@ -1743,7 +1776,7 @@ html {
   .boks10 {
    width: 100vw;
    height: 600px;
-   background-image: url(/images/art3.jpeg);
+   background-image: url(/images/art3.jpg);
    background-repeat: no-repeat;
    background-size: cover;
   }
@@ -1809,7 +1842,7 @@ html {
     #hvid {
       width: 70vw;
       height: auto;
-      background-image: url(/images/art6.png);
+      background-image: url(/images/art9.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -1857,7 +1890,7 @@ html {
   .boks14 {
     height: 700px;
     width: 100vw;
-    background-image: url(/images/art5.jpeg);
+    background-image: url(/images/art5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -2039,7 +2072,7 @@ html {
     .boks16 {
       width: 100vw;
       height: 500px;
-      background-image: url(/images/art6.jpeg);
+      background-image: url(/images/art6.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -2072,7 +2105,7 @@ html {
           }
 
         #billede17 {
-        background-image: url(/images/art2.jpeg);
+        background-image: url(/images/art2.jpg);
         background-repeat: no-repeat;
         background-size: contain;
      

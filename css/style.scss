@@ -113,7 +113,7 @@ html {
       width: 70vw;
       height: 100vh;
       background-color: $light-color;
-      background-image: url(/images/arnekube.jpg);
+      background-image: url(../images/arnekube.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       margin: 0px;
@@ -177,7 +177,7 @@ html {
   .boks4 {
     width: 100vw;
     height: 100vh;
-    background-image: url(/images/bænk.JPG);
+    background-image: url(../images/bænk.JPG);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -199,7 +199,7 @@ html {
       margin-left: 160px;
 
       #dreng {
-        background-image: url(/images/dreng.jpg);
+        background-image: url(../images/dreng.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 400px;
@@ -268,9 +268,10 @@ html {
       #billede6 {
       height: 63.16vh;
       width: 50vw;
-      background-image: url(/images/familie.jpg);
+      background-image: url(../images/familie.jpg);
       background-repeat: no-repeat;
       background-size: contain;
+      background-image: $tertiary-color;
      
       }
   
@@ -299,7 +300,7 @@ html {
 
   .boks7 {
     width: 100vw;
-    height: 850px;
+    height: 700px;
     background-color: $tertiary-color;
     color: $primary-color;
     display: flex;
@@ -309,10 +310,10 @@ html {
 
     #billede7 {
     background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(/images/skole.JPG);
+    background-size: cover;
+    background-image: url(../images/skole.JPG);
     width: 100vw;
-    height: 100vh;
+    height: 600px;
     
     
     }
@@ -322,14 +323,14 @@ html {
     padding-left: 160px;
     padding-top: 30px;
     font-size: 40px;
-    margin-top: -120px;
+    
 
     }
     
     p {
     font-family: $font-stack1;
     padding-left: 160px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-right: 160px;
     }
   }
@@ -348,7 +349,7 @@ html {
     p {
     font-family: $font-stack1;
     padding-left: 160px;
-    padding-top: 30px;
+    padding-bottom: 30px;
     padding-right: 160px;
     }
 
@@ -450,7 +451,7 @@ html {
   .boks2 {
   width: 100vw;
   height: 500px;
-  background-image: url(/images/lys1.jpg);
+  background-image: url(../images/lys1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -484,7 +485,7 @@ html {
   
 
   #billede4 {
-    background-image: url(/images/høretelefoner.jpg);
+    background-image: url(../images/høretelefoner.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 500px;
@@ -559,7 +560,7 @@ html {
     #billede5 {
       width: 50vw;
       height: 275px;
-      background-image: url(/images/feel.jpg);
+      background-image: url(../images/feel.jpg);
       background-repeat: no-repeat;
       background-size: contain;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -587,7 +588,7 @@ html {
  .boks6{
   width: 100vw;
   height: 563px;
-  background-image: url(/images/interaktiv.jpg);
+  background-image: url(../images/interaktiv.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   
@@ -614,7 +615,7 @@ html {
   flex-direction: row;
 
   #billede8 {
-    background-image: url(/images/dinudstilling.jpg);
+    background-image: url(../images/dinudstilling.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -665,7 +666,7 @@ html {
   color: $primary-color;
 
   #billede9 {
-    background-image: url(/images/aktivitet.jpg);
+    background-image: url(../images/aktivitet.jpg);
     height: 60vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -773,7 +774,7 @@ html {
   #billede12 {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/images/interview.jpg);
+    background-image: url(../images/interview.jpg);
     width: 100vw;
     height: 600px;
     display: flex;
@@ -847,7 +848,7 @@ html {
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/images/familie1.jpg);
+  background-image: url(../images/familie1.jpg);
   background-position: 40% 60%;
   
   
@@ -884,7 +885,7 @@ html {
   #billede4 {
   width: 100vw;
   height: 600px;
-  background-image: url(/images/art4.jpg);
+  background-image: url(../images/art4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -1044,7 +1045,7 @@ html {
  .boks6{
   width: 100vw;
   height: 563px;
-  background-image: url(/images/cafe.jpg);
+  background-image: url(../images/cafe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
  }
@@ -1082,7 +1083,7 @@ html {
     align-items: center;
 
     #billede8 {
-      background-image: url(/images/menu.jpg);
+      background-image: url(../images/menu.jpg);
       background-repeat: no-repeat;
       background-size: contain;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1125,7 +1126,7 @@ html {
     font-family: $font-stack1;
    }
    #billede9 {
-    background-image: url(/images/Refood.jpg);
+    background-image: url(../images/Refood.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1175,7 +1176,7 @@ html {
  .boks10 {
   width: 100vw;
   height: 600px;
-  background-image: url(/images/designbutik.jpg);
+  background-image: url(../images/designbutik.jpg);
   background-repeat: no-repeat;
   background-size: contain;
  }
@@ -1265,7 +1266,7 @@ html {
   #billede12 {
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/images/butik.JPG);
+    background-image: url(../images/butik.JPG);
     width: 70vw;
     height: 600px;
     margin-left: auto;
@@ -1312,7 +1313,7 @@ html {
   .boks3 {
    width: 100vw;
    height: 550px;
-   background-image: url(/images/ricard.jpg);
+   background-image: url(../images/ricard.jpg);
    background-repeat: no-repeat;
   background-size: cover;
   }
@@ -1359,7 +1360,7 @@ html {
       height: 250px;
       margin-right: 30px;
       margin-left: 160px;
-      background-image: url(/images/skulptur.jpg);
+      background-image: url(../images/skulptur.jpg);
       background-repeat: no-repeat;
      background-size: cover;
       
@@ -1408,7 +1409,7 @@ html {
       height: 250px;
       margin-right: 160px;
       margin-left: 30px;
-      background-image: url(/images/arnej.jpg);
+      background-image: url(../images/arnej.jpg);
       background-repeat: no-repeat;
      background-size: cover;
       
@@ -1478,7 +1479,7 @@ html {
       height: 250px;
       margin-right: 30px;
       margin-left: 160px;
-      background-image: url(/images/dinudstilling.jpg);
+      background-image: url(../images/dinudstilling.jpg);
       background-repeat: no-repeat;
      background-size: cover;
       
@@ -1526,7 +1527,7 @@ html {
       width: 450px;
       height: 250px;
       margin-right: 160px;
-      background-image: url(/images/ricard.jpg);
+      background-image: url(../images/ricard.jpg);
       background-repeat: no-repeat;
      background-size: cover;
       
@@ -1589,7 +1590,7 @@ html {
    height: auto;
    
    #vernerpanton {
-     background-image: url(/images/vernerpanton.jpg);
+     background-image: url(../images/vernerpanton.jpg);
      width: 100vw;
      height: 450px;
      background-repeat: no-repeat;
@@ -1639,7 +1640,7 @@ html {
    }
 
    #billede8 {
-     background-image: url(/images/vernerpanton2.jpg);
+     background-image: url(../images/vernerpanton2.jpg);
      width: 80vw;
      height: 575px;
      background-repeat: no-repeat;
@@ -1695,7 +1696,7 @@ html {
       margin-left: 30px;
     }
     #billede9 {
-      background-image: url(/images/rodstol.png);
+      background-image: url(../images/rodstol.png);
       width: 300px;
       height: 350px;
       margin-left: 610px;
@@ -1723,7 +1724,7 @@ html {
   .boks10 {
    width: 100vw;
    height: 600px;
-   background-image: url(/images/art3.jpg);
+   background-image: url(../images/art3.jpg);
    background-repeat: no-repeat;
    background-size: cover;
   }
@@ -1789,7 +1790,7 @@ html {
     #hvid {
       width: 70vw;
       height: auto;
-      background-image: url(/images/art9.jpg);
+      background-image: url(../images/art9.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -1837,7 +1838,7 @@ html {
   .boks14 {
     height: 700px;
     width: 100vw;
-    background-image: url(/images/tætpåtræer.jpg);
+    background-image: url(../images/tætpåtræer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -1884,7 +1885,7 @@ html {
           height: 250px;
           margin-right: 30px;
           margin-left: 160px;
-          background-image: url(/images/kommende.jpg);
+          background-image: url(../images/kommende.jpg);
           background-repeat: no-repeat;
          background-size: cover;
           
@@ -1944,7 +1945,7 @@ html {
           height: 250px;
           margin-right: 160px;
           margin-left: 30px;
-          background-image: url(/images/kommende1.jpg);
+          background-image: url(../images/kommende1.jpg);
           background-repeat: no-repeat;
          background-size: cover;
           
@@ -2007,7 +2008,7 @@ html {
           height: 250px;
           margin-right: 30px;
           margin-left: 160px;
-          background-image: url(/images/touch.jpg);
+          background-image: url(../images/touch.jpg);
           background-repeat: no-repeat;
          background-size: cover;
           
@@ -2055,7 +2056,7 @@ html {
     .boks16 {
       width: 100vw;
       height: 500px;
-      background-image: url(/images/art6.jpg);
+      background-image: url(../images/art6.jpg);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -2088,7 +2089,7 @@ html {
           }
 
         #billede17 {
-        background-image: url(/images/art2.jpg);
+        background-image: url(../images/art2.jpg);
         background-repeat: no-repeat;
         background-size: contain;
      
@@ -2100,3 +2101,13 @@ html {
       }
     }
  }
+
+
+
+
+
+
+
+ @media screen and (max-width: 768px) {
+ 
+}

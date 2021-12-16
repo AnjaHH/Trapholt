@@ -107,35 +107,30 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+  
 
     #hvid {
-      width: 50vw;
+      width: 70vw;
       height: 100vh;
       background-color: $light-color;
+      background-image: url(/images/arnekube.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0px;
     }
 
     #gul {
-      width: 50vw;
+      width: 30vw;
       height: 100vh;
       background-color: $tertiary-color;
-    }
-    #gang {
-      background-image: url(/images/gang.JPG);
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 400px;
-      height: 600px;
-      margin: 0px;
-      position: absolute;
-      background-position: center center;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      display: flex;
+      align-items: center;
     }
 
     .åbningstider {
       width: auto;
       height: auto;
-      margin: 150px 20px 400px 300px;
+      padding-left: 30px;
       color: $primary-color;
       display: flex;
       flex-direction: column;
@@ -454,25 +449,12 @@ html {
 
   .boks2 {
   width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  position: relative;
+  height: 500px;
+  background-image: url(/images/lys1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  #hvid {
-  width: 50vw;
-  height: 100vh;
-
-  video {
-    position: absolute;
-  }
-
-  }
-  #grøn {
-    width: 50vw;
-    height: 100vh;
-    background-color: $secondary-color;
-  }
+  
  }
  .boks3 {
   width: 100vw;
@@ -678,38 +660,16 @@ html {
  }
 
  .boks9 {
-  width: 10vw;
-  height: 105vh;
-  color: $primary-color;
-
-  #grøn {
-  background-color: $secondary-color;
   width: 100vw;
-  height: 50vh;
-  display: flex;
-  flex-direction: row;
+  height: auto;
+  color: $primary-color;
 
   #billede9 {
     background-image: url(/images/aktivitet.jpg);
-    height: 50vh;
-    width: 70vw;
-  }
-
-  #tekst9 {
-    height: 50vh;
-    width: 30vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: $font-stack1;
-
-    h2 {
-      font-size: 20px;
-      font-family: $font-stack1;
-      padding-left: 8px;
-    }
-  }
+    height: 60vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #hvid {
   width: 100vw;
@@ -762,7 +722,8 @@ html {
   h2 {
     padding-left: 30px;
     padding-top: 30px;
-    font-family: $font-stack;
+    font-family: $font-stack1;
+    font-size: 20px;
   }
   p {
     padding-left: 30px;
@@ -883,35 +844,17 @@ html {
 
   .boks2 {
   width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-
-  #hvid {
-  width: 30vw;
-  height: 100vh;
-
-  video {
-    position: absolute;
-  }
-  }
-  #pink {
-    width: 70vw;
-    height: 100vh;
-    background-color: $quaternary-color;
-
-    h2 {
-      color: $primary-color;
-      font-family: $font-stack;
-      font-size: 40px;
-      padding: 500px 160px 30px 30px;
-      }
-  }
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/images/familie1.jpg);
+  background-position: 40% 60%;
+  
+  
  }
  .boks3 {
   width: 100vw;
-  height: 470px;
+  height: 600px;
   background-color: $quaternary-color;
   color: $primary-color;
 
@@ -922,6 +865,14 @@ html {
       padding-top: 30px;
       
     }
+
+    h2 {
+      font-family: $font-stack;
+      padding-left: 160px;
+      padding-right: 160px;
+      padding-top: 30px;
+      font-size: 40px;
+      }
  }
 
  .boks4 {
@@ -1357,37 +1308,11 @@ html {
    }
   }
  
-   .boks2 {
-   width: 100vw;
-   height: 100vh;
-   display: flex;
-   flex-direction: row;
-   
- 
-   #hvid {
-   width: 11vw;
-   height: 100vh;
- 
-   video {
-     position: absolute;
-   }
-   }
-   #blå {
-     width: 78vw;
-     height: 100vh;
-     background-color: $quinary-color;
-   }
-
-   #hvid1 {
-    width: 11vw;
-    height: 100vh;
-   }
-  }
 
   .boks3 {
    width: 100vw;
-   height: 470px;
-   background-image: url(/images/art1.jpg);
+   height: 550px;
+   background-image: url(/images/ricard.jpg);
    background-repeat: no-repeat;
   background-size: cover;
   }
@@ -1429,10 +1354,14 @@ html {
     align-items: center;
     flex-direction: column;
 
-    img {
-      width: 400px;
-      height: auto;
+    #billede {
+      width: 450px;
+      height: 250px;
+      margin-right: 30px;
       margin-left: 160px;
+      background-image: url(/images/skulptur.jpg);
+      background-repeat: no-repeat;
+     background-size: cover;
       
     }
     h2 {
@@ -1448,6 +1377,7 @@ html {
       padding-left: 160px;
       padding-top: 15px;
       padding-right: 30px;
+      padding-bottom: 35px;
     }
     #knap {
         background-color: $primary-color;
@@ -1460,7 +1390,7 @@ html {
         justify-content: center;
         align-items: center;
         font-size: 15px;
-        margin-bottom: 15px; 
+        
         margin-left:160px ;
     }
    }
@@ -1471,11 +1401,16 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 30px;
 
-    img {
-      width: 400px;
-      height: auto;
+    #billede {
+      width: 450px;
+      height: 250px;
       margin-right: 160px;
+      margin-left: 30px;
+      background-image: url(/images/arnej.jpg);
+      background-repeat: no-repeat;
+     background-size: cover;
       
     }
     h2 {
@@ -1497,6 +1432,7 @@ html {
       padding-right: 160px;
       padding-top: 15px;
       padding-left: 30px;
+      padding-bottom: 15px;
     }
     #knap {
       background-color: $primary-color;
@@ -1509,7 +1445,7 @@ html {
       justify-content: center;
       align-items: center;
       font-size: 15px;
-      margin-bottom: 15px; 
+      margin-bottom: 30px;
       margin-right:160px ;
     }
    }
@@ -1517,7 +1453,7 @@ html {
  }
   .boks5 {
    width: 100vw;
-   height: 290px;
+   height: 300px;
    display: flex;
    flex-direction: row;
 
@@ -1535,11 +1471,16 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 
-    img {
-      width: 400px;
-      height: auto;
+    #billede {
+      width: 450px;
+      height: 250px;
+      margin-right: 30px;
       margin-left: 160px;
+      background-image: url(/images/dinudstilling.jpg);
+      background-repeat: no-repeat;
+     background-size: cover;
       
     }
     h2 {
@@ -1555,6 +1496,8 @@ html {
       padding-left: 160px;
       padding-top: 15px;
       padding-right: 30px;
+      padding-bottom: 35px;
+
     }
     #knap {
         background-color: $primary-color;
@@ -1567,7 +1510,6 @@ html {
         justify-content: center;
         align-items: center;
         font-size: 15px;
-        margin-bottom: 15px; 
         margin-left:160px ;
     }
    }
@@ -1578,11 +1520,15 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 30px;
 
-    img {
-      width: 400px;
-      height: auto;
+    #billede {
+      width: 450px;
+      height: 250px;
       margin-right: 160px;
+      background-image: url(/images/ricard.jpg);
+      background-repeat: no-repeat;
+     background-size: cover;
       
     }
     h2 {
@@ -1598,6 +1544,7 @@ html {
       padding-right: 160px;
       padding-top: 15px;
       padding-left: 30px;
+      padding-bottom: 10px;
     }
     #knap {
       background-color: $primary-color;
@@ -1610,8 +1557,8 @@ html {
       justify-content: center;
       align-items: center;
       font-size: 15px;
-      margin-bottom: 15px; 
       margin-right:160px ;
+      margin-bottom: 25px;
     }
    }
   }  
@@ -1890,7 +1837,7 @@ html {
   .boks14 {
     height: 700px;
     width: 100vw;
-    background-image: url(/images/art5.jpg);
+    background-image: url(/images/tætpåtræer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -1913,12 +1860,13 @@ html {
       h2 {
         font-family: $font-stack;
         font-size: 40px;
+        margin-bottom: -20px;
         
       }
     }
     #blå {
       width: 100vw;
-      height: 550px;
+      height: 500px;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -1931,10 +1879,14 @@ html {
         align-items: center;
         flex-direction: column;
     
-        img {
-        width: 400px;
-        height: auto;
-        margin-left: 160px;
+        #billede {
+          width: 450px;
+          height: 250px;
+          margin-right: 30px;
+          margin-left: 160px;
+          background-image: url(/images/kommende.jpg);
+          background-repeat: no-repeat;
+         background-size: cover;
           
         }
         h2 {
@@ -1945,11 +1897,21 @@ html {
         padding-top: 15px;
         font-size: 40px;
         }
+
+        h3 {
+          font-family: $font-stack1;
+          font-size: 15px;
+          color: $primary-color;
+          padding-left: 160px;
+        
+        }
         p {
         font-family: $font-stack1;
         padding-left: 160px;
         padding-top: 15px;
         padding-right: 30px;
+        padding-bottom: 50px;
+        
         }
         #knap {
         background-color: $primary-color;
@@ -1962,8 +1924,9 @@ html {
         justify-content: center;
         align-items: center;
         font-size: 15px;
-        margin-bottom: 15px; 
         margin-left:160px ;
+    
+       
         }
        }
     
@@ -1973,11 +1936,17 @@ html {
         display: flex;
         align-items: center;
         flex-direction: column;
+       
+        
     
-        img {
-        width: 400px;
-        height: auto;
-        margin-right: 160px;
+        #billede {
+          width: 450px;
+          height: 250px;
+          margin-right: 160px;
+          margin-left: 30px;
+          background-image: url(/images/kommende1.jpg);
+          background-repeat: no-repeat;
+         background-size: cover;
           
         }
         h2 {
@@ -1990,6 +1959,7 @@ html {
         }
         h3 {
         font-family: $font-stack1;
+        font-size: 15px;
         padding-right: 160px;
         padding-left: 30px;
         color: $primary-color;
@@ -1999,6 +1969,7 @@ html {
         padding-right: 160px;
         padding-top: 15px;
         padding-left: 30px;
+        padding-bottom: 20px;
         }
         #knap {
         background-color: $primary-color;
@@ -2011,14 +1982,14 @@ html {
         justify-content: center;
         align-items: center;
         font-size: 15px;
-        margin-bottom: 15px; 
         margin-right:160px ;
+  
         }
        }
      }
      #blå1 {
       width: 100vw;
-      height: 550px;
+      height: 600px;
       display: flex;
       align-items: center;
       flex-direction: row;
@@ -2031,10 +2002,14 @@ html {
         align-items: center;
         flex-direction: column;
     
-        img {
-        width: 400px;
-        height: auto;
-        margin-left: 160px;
+        #billede {
+          width: 450px;
+          height: 250px;
+          margin-right: 30px;
+          margin-left: 160px;
+          background-image: url(/images/touch.jpg);
+          background-repeat: no-repeat;
+         background-size: cover;
           
         }
         h2 {
@@ -2045,11 +2020,19 @@ html {
         padding-top: 15px;
         font-size: 40px;
         }
+        h3 {
+          font-family: $font-stack1;
+          font-size: 15px;
+          color: $primary-color;
+          padding-left: 160px;
+        
+        }
         p {
         font-family: $font-stack1;
         padding-left: 160px;
         padding-top: 15px;
         padding-right: 30px;
+        padding-bottom: 50px;
         }
         #knap {
         background-color: $primary-color;

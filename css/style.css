@@ -664,38 +664,34 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
 }
 
 .container1 .boks2 #hvid {
-  width: 50vw;
+  width: 70vw;
   height: 100vh;
   background-color: #FAF9F5;
+  background-image: url(/images/arnekube.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
 }
 
 .container1 .boks2 #gul {
-  width: 50vw;
+  width: 30vw;
   height: 100vh;
   background-color: #FFF9B6;
-}
-
-.container1 .boks2 #gang {
-  background-image: url(/images/gang.JPG);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 400px;
-  height: 600px;
-  margin: 0px;
-  position: absolute;
-  background-position: center center;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container1 .boks2 .åbningstider {
   width: auto;
   height: auto;
-  margin: 150px 20px 400px 300px;
+  padding-left: 30px;
   color: #0C3F6A;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1096,30 +1092,10 @@ html {
 
 .container2 .boks2 {
   width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: relative;
-}
-
-.container2 .boks2 #hvid {
-  width: 50vw;
-  height: 100vh;
-}
-
-.container2 .boks2 #hvid video {
-  position: absolute;
-}
-
-.container2 .boks2 #grøn {
-  width: 50vw;
-  height: 100vh;
-  background-color: #96C7C1;
+  height: 500px;
+  background-image: url(/images/lys1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container2 .boks3 {
@@ -1361,53 +1337,17 @@ html {
 }
 
 .container2 .boks9 {
-  width: 10vw;
-  height: 105vh;
+  width: 100vw;
+  height: auto;
   color: #0C3F6A;
 }
 
-.container2 .boks9 #grøn {
-  background-color: #96C7C1;
-  width: 100vw;
-  height: 50vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.container2 .boks9 #grøn #billede9 {
+.container2 .boks9 #billede9 {
   background-image: url(/images/aktivitet.jpg);
-  height: 50vh;
-  width: 70vw;
-}
-
-.container2 .boks9 #grøn #tekst9 {
-  height: 50vh;
-  width: 30vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-family: "Jura", sans-serif;
-}
-
-.container2 .boks9 #grøn #tekst9 h2 {
-  font-size: 20px;
-  font-family: "Jura", sans-serif;
-  padding-left: 8px;
+  height: 60vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container2 .boks9 #hvid {
@@ -1476,7 +1416,8 @@ html {
 .container2 .boks10 #grøn1 h2 {
   padding-left: 30px;
   padding-top: 30px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Jura", sans-serif;
+  font-size: 20px;
 }
 
 .container2 .boks10 #grøn1 p {
@@ -1609,42 +1550,16 @@ html {
 
 .container3 .boks2 {
   width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: relative;
-}
-
-.container3 .boks2 #hvid {
-  width: 30vw;
-  height: 100vh;
-}
-
-.container3 .boks2 #hvid video {
-  position: absolute;
-}
-
-.container3 .boks2 #pink {
-  width: 70vw;
-  height: 100vh;
-  background-color: #F6DBE5;
-}
-
-.container3 .boks2 #pink h2 {
-  color: #0C3F6A;
-  font-family: "Bebas Neue", cursive;
-  font-size: 40px;
-  padding: 500px 160px 30px 30px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/images/familie1.jpg);
+  background-position: 40% 60%;
 }
 
 .container3 .boks3 {
   width: 100vw;
-  height: 470px;
+  height: 600px;
   background-color: #F6DBE5;
   color: #0C3F6A;
 }
@@ -1654,6 +1569,14 @@ html {
   padding-left: 160px;
   padding-right: 160px;
   padding-top: 30px;
+}
+
+.container3 .boks3 h2 {
+  font-family: "Bebas Neue", cursive;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 30px;
+  font-size: 40px;
 }
 
 .container3 .boks4 {
@@ -2275,42 +2198,10 @@ html {
   margin-top: 100px;
 }
 
-.container4 .boks2 {
-  width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.container4 .boks2 #hvid {
-  width: 11vw;
-  height: 100vh;
-}
-
-.container4 .boks2 #hvid video {
-  position: absolute;
-}
-
-.container4 .boks2 #blå {
-  width: 78vw;
-  height: 100vh;
-  background-color: #8AB6D6;
-}
-
-.container4 .boks2 #hvid1 {
-  width: 11vw;
-  height: 100vh;
-}
-
 .container4 .boks3 {
   width: 100vw;
-  height: 470px;
-  background-image: url(/images/art1.jpg);
+  height: 550px;
+  background-image: url(/images/ricard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2377,10 +2268,14 @@ html {
           flex-direction: column;
 }
 
-.container4 .boks4 #blå #skulptur img {
-  width: 400px;
-  height: auto;
+.container4 .boks4 #blå #skulptur #billede {
+  width: 450px;
+  height: 250px;
+  margin-right: 30px;
   margin-left: 160px;
+  background-image: url(/images/skulptur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container4 .boks4 #blå #skulptur h2 {
@@ -2397,6 +2292,7 @@ html {
   padding-left: 160px;
   padding-top: 15px;
   padding-right: 30px;
+  padding-bottom: 35px;
 }
 
 .container4 .boks4 #blå #skulptur #knap {
@@ -2416,7 +2312,6 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 15px;
-  margin-bottom: 15px;
   margin-left: 160px;
 }
 
@@ -2433,12 +2328,17 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 30px;
 }
 
-.container4 .boks4 #blå #kubeflex img {
-  width: 400px;
-  height: auto;
+.container4 .boks4 #blå #kubeflex #billede {
+  width: 450px;
+  height: 250px;
   margin-right: 160px;
+  margin-left: 30px;
+  background-image: url(/images/arnej.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container4 .boks4 #blå #kubeflex h2 {
@@ -2462,6 +2362,7 @@ html {
   padding-right: 160px;
   padding-top: 15px;
   padding-left: 30px;
+  padding-bottom: 15px;
 }
 
 .container4 .boks4 #blå #kubeflex #knap {
@@ -2481,13 +2382,13 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   margin-right: 160px;
 }
 
 .container4 .boks5 {
   width: 100vw;
-  height: 290px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2527,10 +2428,14 @@ html {
           flex-direction: column;
 }
 
-.container4 .boks5 #hvid #dinudstilling img {
-  width: 400px;
-  height: auto;
+.container4 .boks5 #hvid #dinudstilling #billede {
+  width: 450px;
+  height: 250px;
+  margin-right: 30px;
   margin-left: 160px;
+  background-image: url(/images/dinudstilling.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container4 .boks5 #hvid #dinudstilling h2 {
@@ -2547,6 +2452,7 @@ html {
   padding-left: 160px;
   padding-top: 15px;
   padding-right: 30px;
+  padding-bottom: 35px;
 }
 
 .container4 .boks5 #hvid #dinudstilling #knap {
@@ -2566,7 +2472,6 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 15px;
-  margin-bottom: 15px;
   margin-left: 160px;
 }
 
@@ -2583,12 +2488,16 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 30px;
 }
 
-.container4 .boks5 #hvid #richardm img {
-  width: 400px;
-  height: auto;
+.container4 .boks5 #hvid #richardm #billede {
+  width: 450px;
+  height: 250px;
   margin-right: 160px;
+  background-image: url(/images/ricard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container4 .boks5 #hvid #richardm h2 {
@@ -2605,6 +2514,7 @@ html {
   padding-right: 160px;
   padding-top: 15px;
   padding-left: 30px;
+  padding-bottom: 10px;
 }
 
 .container4 .boks5 #hvid #richardm #knap {
@@ -2624,8 +2534,8 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 15px;
-  margin-bottom: 15px;
   margin-right: 160px;
+  margin-bottom: 25px;
 }
 
 .container4 .boks6 {
@@ -2957,7 +2867,7 @@ html {
 .container4 .boks14 {
   height: 700px;
   width: 100vw;
-  background-image: url(/images/art5.jpg);
+  background-image: url(/images/tætpåtræer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2992,11 +2902,12 @@ html {
 .container4 .boks15 #tekst h2 {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
+  margin-bottom: -20px;
 }
 
 .container4 .boks15 #blå {
   width: 100vw;
-  height: 550px;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3025,10 +2936,14 @@ html {
           flex-direction: column;
 }
 
-.container4 .boks15 #blå #erik img {
-  width: 400px;
-  height: auto;
+.container4 .boks15 #blå #erik #billede {
+  width: 450px;
+  height: 250px;
+  margin-right: 30px;
   margin-left: 160px;
+  background-image: url(/images/kommende.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container4 .boks15 #blå #erik h2 {
@@ -3040,11 +2955,19 @@ html {
   font-size: 40px;
 }
 
+.container4 .boks15 #blå #erik h3 {
+  font-family: "Jura", sans-serif;
+  font-size: 15px;
+  color: #0C3F6A;
+  padding-left: 160px;
+}
+
 .container4 .boks15 #blå #erik p {
   font-family: "Jura", sans-serif;
   padding-left: 160px;
   padding-top: 15px;
   padding-right: 30px;
+  padding-bottom: 50px;
 }
 
 .container4 .boks15 #blå #erik #knap {
@@ -3064,7 +2987,6 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 15px;
-  margin-bottom: 15px;
   margin-left: 160px;
 }
 
@@ -3083,10 +3005,14 @@ html {
           flex-direction: column;
 }
 
-.container4 .boks15 #blå #collect img {
-  width: 400px;
-  height: auto;
+.container4 .boks15 #blå #collect #billede {
+  width: 450px;
+  height: 250px;
   margin-right: 160px;
+  margin-left: 30px;
+  background-image: url(/images/kommende1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container4 .boks15 #blå #collect h2 {
@@ -3100,6 +3026,7 @@ html {
 
 .container4 .boks15 #blå #collect h3 {
   font-family: "Jura", sans-serif;
+  font-size: 15px;
   padding-right: 160px;
   padding-left: 30px;
   color: #0C3F6A;
@@ -3110,6 +3037,7 @@ html {
   padding-right: 160px;
   padding-top: 15px;
   padding-left: 30px;
+  padding-bottom: 20px;
 }
 
 .container4 .boks15 #blå #collect #knap {
@@ -3129,13 +3057,12 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 15px;
-  margin-bottom: 15px;
   margin-right: 160px;
 }
 
 .container4 .boks15 #blå1 {
   width: 100vw;
-  height: 550px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3164,10 +3091,14 @@ html {
           flex-direction: column;
 }
 
-.container4 .boks15 #blå1 #touch img {
-  width: 400px;
-  height: auto;
+.container4 .boks15 #blå1 #touch #billede {
+  width: 450px;
+  height: 250px;
+  margin-right: 30px;
   margin-left: 160px;
+  background-image: url(/images/touch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container4 .boks15 #blå1 #touch h2 {
@@ -3179,11 +3110,19 @@ html {
   font-size: 40px;
 }
 
+.container4 .boks15 #blå1 #touch h3 {
+  font-family: "Jura", sans-serif;
+  font-size: 15px;
+  color: #0C3F6A;
+  padding-left: 160px;
+}
+
 .container4 .boks15 #blå1 #touch p {
   font-family: "Jura", sans-serif;
   padding-left: 160px;
   padding-top: 15px;
   padding-right: 30px;
+  padding-bottom: 50px;
 }
 
 .container4 .boks15 #blå1 #touch #knap {

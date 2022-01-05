@@ -538,6 +538,8 @@ h2 {
   padding: 0%;
   margin: 0%;
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -784,7 +786,7 @@ html {
 .container1 .boks5 #billede5 #dreng {
   background-image: url(../images/dreng.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 400px;
   height: 267px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -878,7 +880,7 @@ html {
   width: 50vw;
   background-image: url(../images/familie.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-image: #FFF9B6;
 }
 
@@ -1233,14 +1235,12 @@ html {
   height: 275px;
   background-image: url(../images/feel.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 500px;
+  width: 40vw;
   height: 278px;
-  margin-left: 700px;
   margin-top: 70px;
-  position: absolute;
 }
 
 .container2 .boks5 #grøn2 {
@@ -1276,30 +1276,16 @@ html {
 
 .container2 .boks8 {
   width: 100vw;
-  height: 600px;
+  height: 700px;
   background-color: #96C7C1;
   color: #0C3F6A;
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.container2 .boks8 #billede8 {
-  background-image: url(../images/dinudstilling.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 233px;
-  width: 350px;
-  margin-left: 800px;
-  margin-top: 120px;
-  position: absolute;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .container2 .boks8 #grøn {
@@ -1315,25 +1301,34 @@ html {
 .container2 .boks8 #grøn1 h2 {
   font-size: 40px;
   font-family: "Bebas Neue", cursive;
-  padding-left: 30px;
-  padding-top: 40px;
-  padding-right: 160px;
+  padding-left: 160px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 
 .container2 .boks8 #grøn1 #tekst8 {
-  padding-left: 30px;
-  padding-right: 550px;
+  padding-left: 160px;
   padding-top: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   font-family: "Jura", sans-serif;
 }
 
 .container2 .boks8 #grøn1 p {
-  padding-left: 30px;
-  padding-right: 160px;
+  padding-left: 160px;
+  padding-bottom: 15px;
   padding-top: 15px;
   font-family: "Jura", sans-serif;
+}
+
+.container2 .boks8 #grøn1 #billede8 {
+  background-image: url(../images/dinudstilling.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 233px;
+  width: 350px;
+  margin-left: 160px;
 }
 
 .container2 .boks9 {
@@ -2152,7 +2147,7 @@ html {
 
 .container3 .boks12 #billede12 {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-image: url(../images/butik.JPG);
   width: 70vw;
   height: 600px;
@@ -2648,7 +2643,7 @@ html {
 }
 
 .container4 .boks9 #tekst {
-  width: 80vw;
+  width: 50vw;
   height: 400px;
   color: #0C3F6A;
 }
@@ -2658,11 +2653,10 @@ html {
   font-size: 40px;
   padding-left: 30px;
   padding-top: 30px;
-  padding-right: 360px;
 }
 
 .container4 .boks9 #tekst p {
-  padding: 15px 360px 30px 30px;
+  padding: 15px 30px 30px 30px;
   font-family: "Jura", sans-serif;
 }
 
@@ -2687,12 +2681,16 @@ html {
   margin-left: 30px;
 }
 
-.container4 .boks9 #tekst #billede9 {
+.container4 .boks9 #stol1 {
+  width: 30vw;
+  height: 400px;
+  background-color: #8AB6D6;
+}
+
+.container4 .boks9 #stol1 #billede9 {
   background-image: url(../images/rodstol.png);
   width: 300px;
   height: 350px;
-  margin-left: 610px;
-  margin-top: -280px;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -3193,10 +3191,31 @@ html {
 .container4 .boks17 #hvid #billede17 {
   background-image: url(../images/art2.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 70vw;
   height: 472px;
   background-color: #8AB6D6;
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .frontpage {
+    background-color: red;
+  }
+  .wrapper {
+    padding-left: 30px;
+  }
+  .one, .three, .five, .seven, .nine {
+    width: 80vw;
+  }
+  .one img, .three img, .five img, .seven img, .nine img {
+    width: 80vw;
+  }
+  .two, .four, .six, .eight, .ten {
+    width: 80vw;
+  }
+  .two img, .four img, .six img, .eight img, .ten img {
+    width: 80vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */

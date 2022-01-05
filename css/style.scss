@@ -9,6 +9,7 @@
     padding: 0%;
     margin: 0%;
     text-decoration: none;
+    box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth;
@@ -201,7 +202,7 @@ html {
       #dreng {
         background-image: url(../images/dreng.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         width: 400px;
         height: 267px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -270,7 +271,7 @@ html {
       width: 50vw;
       background-image: url(../images/familie.jpg);
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       background-image: $tertiary-color;
      
       }
@@ -562,13 +563,13 @@ html {
       height: 275px;
       background-image: url(../images/feel.jpg);
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      width: 500px;
+      width: 40vw;
       height: 278px;
-      margin-left: 700px;
+      
       margin-top: 70px;
-      position: absolute;
+    
     }
   }
 
@@ -607,24 +608,11 @@ html {
 
  .boks8 {
   width: 100vw;
-  height: 600px;
+  height: 700px;
   background-color: $secondary-color;
   color: $primary-color;
-  position: relative;
   display: flex;
-  flex-direction: row;
-
-  #billede8 {
-    background-image: url(../images/dinudstilling.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 233px;
-    width: 350px;
-    margin-left: 800px;
-    margin-top: 120px;
-    position: absolute;
-  }
+  flex-direction: column;
 
   #grøn {
     width: 20vw;
@@ -639,23 +627,31 @@ html {
   h2 {
     font-size: 40px;
     font-family: $font-stack;
-    padding-left: 30px;
-    padding-top: 40px;
-    padding-right: 160px;
+    padding-left: 160px;
+    padding-top: 30px;
     padding-bottom: 10px;
   }
   #tekst8 {
-    padding-left: 30px;
-    padding-right: 550px;
+    padding-left: 160px;
     padding-top: 15px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     font-family: $font-stack1;
   }
   p {
-    padding-left: 30px;
-    padding-right: 160px;
+    padding-left: 160px;
+    padding-bottom: 15px;
     padding-top: 15px;
     font-family: $font-stack1;
+  }
+  #billede8 {
+    background-image: url(../images/dinudstilling.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 233px;
+    width: 350px;
+    margin-left: 160px;
+  
   }
   }
  }
@@ -1265,7 +1261,7 @@ html {
   
   #billede12 {
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-image: url(../images/butik.JPG);
     width: 70vw;
     height: 600px;
@@ -1666,7 +1662,7 @@ html {
    }
  
    #tekst {
-    width: 80vw;
+    width: 50vw;
    height: 400px;
    color: $primary-color;
    
@@ -1675,10 +1671,10 @@ html {
      font-size: 40px;
      padding-left: 30px;
      padding-top: 30px;
-     padding-right: 360px;
+     
    }
    p {
-     padding: 15px 360px 30px 30px;
+     padding: 15px 30px 30px 30px;
      font-family: $font-stack1;
     }
     #knap {
@@ -1695,12 +1691,17 @@ html {
       margin-bottom: 15px; 
       margin-left: 30px;
     }
+  }
+
+  #stol1 {
+    width: 30vw;
+    height: 400px;
+    background-color: $quinary-color;
+
     #billede9 {
       background-image: url(../images/rodstol.png);
       width: 300px;
       height: 350px;
-      margin-left: 610px;
-      margin-top: -280px;
       background-repeat: no-repeat;
       background-size: contain;
       position: relative;
@@ -2091,7 +2092,7 @@ html {
         #billede17 {
         background-image: url(../images/art2.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
      
         width: 70vw;
         height: 472px;
@@ -2105,9 +2106,27 @@ html {
 
 
 
+ @media only screen and (max-width: 600px) {
+  .frontpage {
+    background-color: red;
+  }
 
+  .wrapper {
+    padding-left: 30px;
+  }
 
+  .one, .three, .five, .seven, .nine {
+    width: 80vw;
 
- @media screen and (max-width: 768px) {
- 
+    img {
+      width: 80vw;
+    }
+  }
+  .two, .four, .six, .eight, .ten {
+    width: 80vw;
+
+    img {
+      width: 80vw;
+    }
+  }
 }

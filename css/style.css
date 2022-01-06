@@ -966,7 +966,7 @@ html {
   padding-left: 160px;
   padding-bottom: 30px;
   padding-right: 160px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .container1 .boks8 #bookingskoler {
@@ -1098,7 +1098,7 @@ html {
 
 .container2 .boks3 {
   width: 100vw;
-  height: 250px;
+  height: auto;
   background-color: #96C7C1;
   color: #0C3F6A;
   display: -webkit-box;
@@ -1120,17 +1120,19 @@ html {
   font-family: "Jura", sans-serif;
   padding-left: 160px;
   padding-right: 160px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .container2 .boks4 {
   width: 100vw;
-  height: 1000px;
+  height: auto;
 }
 
 .container2 .boks4 #billede4 {
   background-image: url(../images/høretelefoner.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 500px;
   height: 281px;
   margin-left: 160px;
@@ -1188,7 +1190,7 @@ html {
 
 .container2 .boks5 {
   width: 100vw;
-  height: 500px;
+  height: auto;
   background-color: #96C7C1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1201,7 +1203,7 @@ html {
 
 .container2 .boks5 #grøn1 {
   width: 100vw;
-  height: 275px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1213,7 +1215,7 @@ html {
 
 .container2 .boks5 #grøn1 #tekst {
   width: 50vw;
-  height: 275px;
+  height: auto;
 }
 
 .container2 .boks5 #grøn1 #tekst h2 {
@@ -1224,6 +1226,7 @@ html {
 .container2 .boks5 #grøn1 #tekst p {
   font-family: "Jura", sans-serif;
   padding-top: 15px;
+  padding-right: 30px;
 }
 
 .container2 .boks5 #grøn1 #billede5 {
@@ -1241,38 +1244,27 @@ html {
 
 .container2 .boks5 #grøn2 {
   width: 100vw;
-  height: 100px;
+  height: auto;
 }
 
 .container2 .boks5 #grøn2 p {
   font-family: "Jura", sans-serif;
   padding-right: 160px;
   padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .container2 .boks6 {
   width: 100vw;
-  height: 563px;
+  height: 500px;
   background-image: url(../images/interaktiv.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.container2 .boks6 #grøn {
-  width: 30vw;
-  height: 100vh;
-  background-color: #96C7C1;
-}
-
-.container2 .boks6 #hvid {
-  width: 70vw;
-  height: 100vh;
-  background-color: #FAF9F5;
+  background-size: cover;
 }
 
 .container2 .boks8 {
   width: 100vw;
-  height: 700px;
+  height: auto;
   background-color: #96C7C1;
   color: #0C3F6A;
   display: -webkit-box;
@@ -1286,12 +1278,12 @@ html {
 
 .container2 .boks8 #grøn {
   width: 20vw;
-  height: 100vh;
+  height: auto;
 }
 
 .container2 .boks8 #grøn1 {
   width: 80vw;
-  height: 100vh;
+  height: auto;
 }
 
 .container2 .boks8 #grøn1 h2 {
@@ -1319,7 +1311,7 @@ html {
 .container2 .boks8 #grøn1 #billede8 {
   background-image: url(../images/dinudstilling.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 233px;
@@ -1343,7 +1335,7 @@ html {
 
 .container2 .boks9 #hvid {
   width: 100vw;
-  height: 60vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1355,15 +1347,15 @@ html {
 
 .container2 .boks9 #hvid #hvid1 {
   width: 20vw;
-  height: 100vh;
+  height: auto;
 }
 
 .container2 .boks9 #hvid #hvid2 {
   width: 80vw;
-  height: 100vh;
+  height: auto;
 }
 
-.container2 .boks9 #hvid h2 {
+.container2 .boks9 #hvid #hvid2 h2 {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
   padding-left: 30px;
@@ -1371,7 +1363,7 @@ html {
   padding-right: 160px;
 }
 
-.container2 .boks9 #hvid p {
+.container2 .boks9 #hvid #hvid2 p {
   padding-left: 30px;
   padding-top: 15px;
   padding-right: 160px;
@@ -1419,7 +1411,7 @@ html {
 
 .container2 .boks11 {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1431,13 +1423,13 @@ html {
 
 .container2 .boks11 #grøn {
   width: 20vw;
-  height: 100vh;
+  height: auto;
   background-color: #96C7C1;
 }
 
 .container2 .boks11 #hvid {
   width: 80vw;
-  height: 100vh;
+  height: auto;
   background-color: #FAF9F5;
   color: #0C3F6A;
 }
@@ -3221,6 +3213,9 @@ html {
     width: 80vw;
     font-size: 35px;
   }
+  .container1 .boks1 {
+    font-size: 50px;
+  }
   .container1 .boks2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3305,6 +3300,63 @@ html {
   }
   .container1 .boks9 #gul h2, .container1 .boks9 #gul h3, .container1 .boks9 #gul p {
     padding-left: 120px;
+  }
+  .container2 .boks1 {
+    font-size: 50px;
+    height: 250px;
+  }
+  .container2 .boks2 {
+    height: 300px;
+  }
+  .container2 .boks3 p {
+    padding-right: 30px;
+    padding-left: 120px;
+  }
+  .container2 .boks4 #billede4 {
+    margin-left: 120px;
+    width: 70vw;
+  }
+  .container2 .boks4 p, .container2 .boks4 h2 {
+    padding-right: 30px;
+    padding-left: 120px;
+  }
+  .container2 .boks5 #grøn1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container2 .boks5 #grøn1 #tekst {
+    width: 100vw;
+  }
+  .container2 .boks5 #grøn1 #billede5 {
+    width: 70vw;
+    margin-left: 120px;
+  }
+  .container2 .boks5 #grøn2 p {
+    padding-right: 30px;
+  }
+  .container2 .boks6 {
+    height: 300px;
+  }
+  .container2 .boks8 #grøn1 {
+    width: 100vw;
+  }
+  .container2 .boks8 #grøn1 h2, .container2 .boks8 #grøn1 #tekst8, .container2 .boks8 #grøn1 p {
+    padding-right: 30px;
+    padding-left: 120px;
+  }
+  .container2 .boks8 #grøn1 #billede8 {
+    margin-left: 120px;
+  }
+  .container2 .boks9 #billede9 {
+    height: 300px;
+  }
+  .container2 .boks9 #hvid #hvid2 h2, .container2 .boks9 #hvid #hvid2 p {
+    padding-right: 30px;
+  }
+  .container2 .boks11 #hvid p {
+    padding-right: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

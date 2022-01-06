@@ -33,6 +33,10 @@
     }
 
     .container1 {
+
+        .boks1 {
+            font-size: 50px;
+        }
         .boks2 {
             flex-direction: column;
 
@@ -128,6 +132,89 @@
                 }
             }
         }
+    }
+
+    .container2 {
+
+        .boks1 {
+            font-size: 50px;
+            height: 250px;
+        }
+        .boks2 {
+            height: 300px;
+        }
+
+        .boks3 {
+            p {
+                padding-right: 30px;
+                padding-left: 120px;
+            }
+        }
+        .boks4 {
+            #billede4 {
+                margin-left: 120px;
+                width: 70vw;
+            }
+
+            p, h2 {
+                padding-right: 30px;
+                padding-left: 120px;
+            }
+        }
+
+    .boks5 {
+        #grøn1 {
+            flex-direction: column;
+            #tekst {
+                width: 100vw;
+            }
+            #billede5 {
+                width: 70vw;
+                margin-left: 120px;
+            }
+        }
+        #grøn2 {
+            p {
+                padding-right: 30px;
+            }
+        }
+    }
+    .boks6 {
+        height: 300px;
+    }
+    .boks8 {
+        #grøn1 {
+            width: 100vw;
+            h2, #tekst8, p {
+                padding-right: 30px;
+                padding-left: 120px;
+            }
+            #billede8 {
+                margin-left: 120px;
+            }
+        }
+
+    }
+    .boks9 {
+        #billede9 {
+            height: 300px;
+        }
+        #hvid {
+            #hvid2 {
+                h2, p {
+                    padding-right: 30px;
+                }
+            }
+
+        }
+    }
+    .boks11 {
+        #hvid {
+            p {
+                padding-right: 30px;
+            }
+        }
+    }
     }
   }
   

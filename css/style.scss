@@ -351,7 +351,7 @@ html {
     padding-left: 160px;
     padding-bottom: 30px;
     padding-right: 160px;
-    padding-top: 50px;
+    padding-top: 30px;
     }
 
     #bookingskoler {
@@ -461,7 +461,7 @@ html {
  }
  .boks3 {
   width: 100vw;
-  height: 250px;
+  height: auto;
   background-color: $secondary-color;
   color: $primary-color;
   display: flex;
@@ -471,25 +471,28 @@ html {
 
     h2 {
       font-family: $font-stack;
+
     }
 
     p {
       font-family: $font-stack1;
       padding-left: 160px;
       padding-right: 160px;
+      padding-top: 30px;
+      padding-bottom: 30px;
       
     }
  }
 
  .boks4 {
   width: 100vw;
-  height: 1000px;
+  height: auto;
   
 
   #billede4 {
     background-image: url(../images/høretelefoner.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 500px;
     height: 281px;
     margin-left: 160px;
@@ -535,20 +538,21 @@ html {
 
  .boks5 {
   width: 100vw;
-  height: 500px;
+  height: auto;
   background-color: $secondary-color;
   display: flex;
   flex-direction: column;
 
   #grøn1 {
     width: 100vw;
-    height: 275px;
+    height: auto;
     display: flex;
     flex-direction: row;
 
     #tekst {
     width: 50vw;
-    height: 275px;
+    height: auto;
+    
 
     h2 {
       font-family: $font-stack;
@@ -557,6 +561,7 @@ html {
     p {
       font-family: $font-stack1;
       padding-top: 15px;
+      padding-right: 30px;
     }
     }
     #billede5 {
@@ -576,12 +581,13 @@ html {
 
   #grøn2 {
   width: 100vw;
-  height: 100px;
+  height: auto;
 
   p {
     font-family: $font-stack1;
     padding-right: 160px;
    padding-bottom: 30px;
+   padding-top: 50px;
     
   }
   }
@@ -589,27 +595,16 @@ html {
 
  .boks6{
   width: 100vw;
-  height: 563px;
+  height: 500px;
   background-image: url(../images/interaktiv.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   
-  #grøn {
-  width: 30vw;
-  height: 100vh;
-  background-color: $secondary-color;
-  }
-
-  #hvid {
-  width:70vw;
-  height: 100vh;
-  background-color: $light-color;
-  }
  }
 
  .boks8 {
   width: 100vw;
-  height: 700px;
+  height: auto;
   background-color: $secondary-color;
   color: $primary-color;
   display: flex;
@@ -617,12 +612,12 @@ html {
 
   #grøn {
     width: 20vw;
-    height: 100vh;
+    height: auto;
   }
 
   #grøn1 {
     width: 80vw;
-    height: 100vh;
+    height: auto;
 
 
   h2 {
@@ -647,7 +642,7 @@ html {
   #billede8 {
     background-image: url(../images/dinudstilling.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 233px;
     width: 350px;
@@ -671,18 +666,18 @@ html {
   }
   #hvid {
   width: 100vw;
-  height: 60vh;
+  height: auto;
   display: flex;
   flex-direction: row;
 
   #hvid1 {
     width: 20vw;
-    height: 100vh;
+    height: auto;
   }
   #hvid2 {
     width: 80vw;
-    height: 100vh;
-  }
+    height: auto;
+  
   h2 {
     font-family: $font-stack;
     font-size: 40px;
@@ -697,6 +692,7 @@ html {
     padding-bottom: 30px;
     font-family: $font-stack1;
    }
+  }
   }
  }
 
@@ -733,19 +729,19 @@ html {
 
  .boks11 {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: row;
 
   #grøn {
   width: 20vw;
-  height: 100vh;
+  height: auto;
   background-color: $secondary-color;
   }
 
   #hvid {
   width:80vw;
-  height: 100vh;
+  height: auto;
   background-color: $light-color;
   color: $primary-color;
 
@@ -760,6 +756,8 @@ html {
     padding-left: 30px;
     padding-top: 20px;
     padding-right: 160px;
+    
+    
   }
   } 
  }

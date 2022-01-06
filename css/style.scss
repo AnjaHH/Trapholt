@@ -229,10 +229,9 @@ html {
 
   .boks6 {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    
 
     #tekst6 {
       width: 100vw;
@@ -251,7 +250,7 @@ html {
       }
 
       p {
-        width: 30vw;
+      padding-right: 30px;
         padding-left: 160px;
         
       }
@@ -259,7 +258,7 @@ html {
 
     #boks61 {
       width: 50vw;
-      height: 100vh;
+      height: auto;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -301,7 +300,7 @@ html {
 
   .boks7 {
     width: 100vw;
-    height: 700px;
+    height: auto;
     background-color: $tertiary-color;
     color: $primary-color;
     display: flex;
@@ -314,7 +313,7 @@ html {
     background-size: cover;
     background-image: url(../images/skole.JPG);
     width: 100vw;
-    height: 600px;
+    height: 500px;
     
     
     }
@@ -338,7 +337,7 @@ html {
 
   .boks8 {
     width: 100vw;
-    height: 400px;
+    height: auto;
     background-color: $light-color;
     color: $primary-color;
     text-decoration: none;
@@ -352,6 +351,7 @@ html {
     padding-left: 160px;
     padding-bottom: 30px;
     padding-right: 160px;
+    padding-top: 50px;
     }
 
     #bookingskoler {
@@ -359,6 +359,7 @@ html {
       width: 300px;
       height: 50px;;
       margin-top: 20px;
+      margin-bottom: 30px;
       text-decoration: none;
       font-family: $font-stack;
       color: $light-color;
@@ -371,7 +372,7 @@ html {
 
   .boks9 {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -2104,29 +2105,6 @@ html {
  }
 
 
+ @import 'mediaq';
 
-
- @media only screen and (max-width: 600px) {
-  .frontpage {
-    background-color: red;
-  }
-
-  .wrapper {
-    padding-left: 30px;
-  }
-
-  .one, .three, .five, .seven, .nine {
-    width: 80vw;
-
-    img {
-      width: 80vw;
-    }
-  }
-  .two, .four, .six, .eight, .ten {
-    width: 80vw;
-
-    img {
-      width: 80vw;
-    }
-  }
-}
+ 

@@ -818,16 +818,10 @@ html {
 
 .container1 .boks6 {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
 }
 
 .container1 .boks6 #tekst6 {
@@ -853,13 +847,13 @@ html {
 }
 
 .container1 .boks6 #tekst6 p {
-  width: 30vw;
+  padding-right: 30px;
   padding-left: 160px;
 }
 
 .container1 .boks6 #boks61 {
   width: 50vw;
-  height: 100vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -911,7 +905,7 @@ html {
 
 .container1 .boks7 {
   width: 100vw;
-  height: 700px;
+  height: auto;
   background-color: #FFF9B6;
   color: #0C3F6A;
   display: -webkit-box;
@@ -929,7 +923,7 @@ html {
   background-size: cover;
   background-image: url(../images/skole.JPG);
   width: 100vw;
-  height: 600px;
+  height: 500px;
 }
 
 .container1 .boks7 h2 {
@@ -948,7 +942,7 @@ html {
 
 .container1 .boks8 {
   width: 100vw;
-  height: 400px;
+  height: auto;
   background-color: #FAF9F5;
   color: #0C3F6A;
   text-decoration: none;
@@ -972,6 +966,7 @@ html {
   padding-left: 160px;
   padding-bottom: 30px;
   padding-right: 160px;
+  padding-top: 50px;
 }
 
 .container1 .boks8 #bookingskoler {
@@ -979,6 +974,7 @@ html {
   width: 300px;
   height: 50px;
   margin-top: 20px;
+  margin-bottom: 30px;
   text-decoration: none;
   font-family: "Bebas Neue", cursive;
   color: #FAF9F5;
@@ -996,7 +992,7 @@ html {
 
 .container1 .boks9 {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3211,11 +3207,104 @@ html {
   .one img, .three img, .five img, .seven img, .nine img {
     width: 80vw;
   }
+  .one h1, .three h1, .five h1, .seven h1, .nine h1 {
+    width: 80vw;
+    font-size: 35px;
+  }
   .two, .four, .six, .eight, .ten {
     width: 80vw;
   }
   .two img, .four img, .six img, .eight img, .ten img {
     width: 80vw;
+  }
+  .two h1, .four h1, .six h1, .eight h1, .ten h1 {
+    width: 80vw;
+    font-size: 35px;
+  }
+  .container1 .boks2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container1 .boks2 #hvid {
+    width: 100vw;
+  }
+  .container1 .boks2 #gul {
+    width: 100vw;
+    padding-left: 120px;
+  }
+  .container1 .boks5 {
+    height: 350px;
+  }
+  .container1 .boks5 #billede5 {
+    display: none;
+  }
+  .container1 .boks5 #tekst5 {
+    width: 100vw;
+  }
+  .container1 .boks5 #tekst5 p {
+    margin-left: 0px;
+    padding-left: 120px;
+    width: 100vw;
+    margin-top: 70px;
+  }
+  .container1 .boks6 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container1 .boks6 #tekst6 {
+    height: auto;
+    gap: 0px;
+  }
+  .container1 .boks6 #tekst6 h2 {
+    padding-left: 120px;
+  }
+  .container1 .boks6 #tekst6 p {
+    width: 100vw;
+    padding-left: 120px;
+    padding-bottom: 30px;
+  }
+  .container1 .boks6 #boks61 {
+    width: 100vw;
+  }
+  .container1 .boks6 #boks61 #billede6 {
+    width: 100vw;
+  }
+  .container1 .boks6 #boks61 #gulboks {
+    width: 100vw;
+    padding-left: 120px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .container1 .boks7 #billede7 {
+    height: 300px;
+  }
+  .container1 .boks7 p {
+    padding-right: 30px;
+  }
+  .container1 .boks8 p {
+    padding-right: 30px;
+  }
+  .container1 .boks9 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container1 .boks9 #hvid {
+    width: 100vw;
+    height: auto;
+  }
+  .container1 .boks9 #gul {
+    width: 100vw;
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .container1 .boks9 #gul h2, .container1 .boks9 #gul h3, .container1 .boks9 #gul p {
+    padding-left: 120px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,133 @@
+@media only screen and (max-width: 600px) {
+    .frontpage {
+      background-color: red;
+    }
+  
+    .wrapper {
+      padding-left: 30px;
+    }
+  
+    .one, .three, .five, .seven, .nine {
+      width: 80vw;
+  
+      img {
+        width: 80vw;
+      }
+  
+      h1 {
+        width: 80vw;
+        font-size: 35px;
+      }
+    }
+    .two, .four, .six, .eight, .ten {
+      width: 80vw;
+  
+      img {
+        width: 80vw;
+      }
+  
+      h1 {
+        width: 80vw;
+        font-size: 35px;
+      }
+    }
+
+    .container1 {
+        .boks2 {
+            flex-direction: column;
+
+            #hvid {
+                width: 100vw;
+            }
+            #gul {
+                width: 100vw;
+                padding-left: 120px;
+            }
+        }
+
+        .boks5 {
+            height: 350px;
+            #billede5 {
+                display: none;
+            }
+            #tekst5 {
+                width: 100vw;
+                
+                p {
+                    margin-left: 0px;
+                    padding-left: 120px;
+                    width: 100vw;
+                    margin-top: 70px;
+                }
+               
+            }
+        }
+
+        .boks6 {
+            flex-direction: column;
+            
+
+            #tekst6 {
+                height: auto;
+                gap: 0px;
+
+                h2 {
+                    padding-left: 120px;
+                }
+
+                p {
+                    width: 100vw;
+                    padding-left: 120px;
+                    padding-bottom: 30px;
+                }
+            }
+            #boks61 {
+                width: 100vw;
+
+                #billede6 {
+                    width: 100vw;
+                }
+                #gulboks {
+                    width: 100vw;
+                    padding-left: 120px;
+                    height: auto;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+
+        .boks7 {
+            #billede7 {
+                height: 300px;
+            }
+            p {
+                padding-right: 30px;
+            }
+        }
+
+        .boks8 {
+            p {
+                padding-right: 30px;
+            }
+        }
+
+        .boks9 {
+            flex-direction: column;
+
+            #hvid {
+                width: 100vw;
+                height: auto;
+            }
+            #gul {
+                width: 100vw;
+                height: auto;
+                padding-bottom: 100px;
+
+                h2, h3, p {
+                    padding-left: 120px;
+                }
+            }
+        }
+    }
+  }
+  

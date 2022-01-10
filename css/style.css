@@ -3238,19 +3238,23 @@ html {
     padding-left: 120px;
   }
   .container1 .boks5 {
-    height: 350px;
+    height: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .container1 .boks5 #billede5 {
     display: none;
   }
   .container1 .boks5 #tekst5 {
     width: 100vw;
+    height: 500px;
   }
   .container1 .boks5 #tekst5 p {
     margin-left: 0px;
     padding-left: 120px;
     width: 100vw;
-    margin-top: 70px;
   }
   .container1 .boks6 {
     -webkit-box-orient: vertical;

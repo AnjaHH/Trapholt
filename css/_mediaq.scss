@@ -357,6 +357,7 @@
             #blå {
                 
                 flex-direction: column;
+
                 #skulptur {
                 width: 100vw;
                #billede {
@@ -377,6 +378,7 @@
                 #kubeflex {
                     width: 100vw;
                     
+                    
                     #billede {
                         margin-left: 120px;
                         margin-right: 30px;
@@ -395,13 +397,6 @@
         }
         .boks5 {
             flex-direction: column;
-            #tekst {
-            h2, p {
-                padding-left: 120px;
-            }
-        
-            #hvid {
-                flex-direction: column;
 
                 #dinudstilling {
                 width: 100vw;
@@ -422,7 +417,8 @@
                 }
                 #richardm {
                     width: 100vw;
-                   
+                    
+        
                     
                     #billede {
                         margin-left: 120px;
@@ -437,7 +433,6 @@
                         margin-left: 120px;
                         margin-right: 30px;
                     }
-                }
             }
         }
         .boks6 {
@@ -517,6 +512,13 @@
             height: 300px;
         }
         .boks15 {
+            #tekst {
+                justify-content: flex-start;
+                h2 {
+                    padding-left: 120px;
+                    
+                }
+            }
             #blå {
                 flex-direction: column;
                 #erik {
@@ -527,15 +529,53 @@
                     }
                     h2, h3, p {
                         padding-left: 120px;
+                        padding-right: 30px;
+                    }
+                    #knap {
+                        margin-bottom: 30px;
+                        margin-top: -15px;
+                        margin-right: 30px;
+                        margin-left: 120px;
                     }
                 }
                 #collect {
                     width: 100vw;
+
+                    #billede {
+                        width: 70vw;
+                        margin-left: 120px;
+                        margin-right: 30px;
+                    }
+                    #knap {
+                        margin-bottom: 30px;
+                        margin-top: -15px;
+                        margin-right: 30px;
+                        margin-left: 120px;
+                    }
+
+                    h2, h3, p {
+                        padding-left: 120px;
+                        padding-right: 30px;
+                    }
                 }
             }
             #blå1 {
                 #touch {
                     width: 100vw;
+
+                    #billede {
+                        width: 70vw;
+                    }
+                    #knap {
+                        margin-bottom: 30px;
+                        margin-top: -15px;
+                        margin-right: 30px;
+                        margin-left: 120px;
+                    }
+                    h2, h3, p {
+                        padding-left: 120px;
+                        padding-right: 30px;
+                    }
                 }
             }
         }
@@ -558,6 +598,5 @@
             }
 
         }
-    }
 }
 }

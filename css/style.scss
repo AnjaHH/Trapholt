@@ -1461,15 +1461,8 @@ html {
    width: 100vw;
    height: auto;
    display: flex;
+   align-items: center;
    flex-direction: row;
-
- 
-   #hvid {
-    width: 100vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
 
     #dinudstilling {
     width: 50vw;
@@ -1568,7 +1561,6 @@ html {
       margin-bottom: 25px;
     }
    }
-  }  
   }
   .boks6{
    width: 100vw;

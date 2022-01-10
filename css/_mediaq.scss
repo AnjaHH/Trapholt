@@ -2,6 +2,13 @@
     .frontpage {
       background-color: red;
     }
+    .menubar {
+        .menubar2 {
+                p {
+                
+                }
+        }
+    }
   
     .wrapper {
       padding-left: 30px;
@@ -167,6 +174,9 @@
             flex-direction: column;
             #tekst {
                 width: 100vw;
+                h2, p {
+                    padding-left: 120px;
+                }
             }
             #billede5 {
                 width: 70vw;
@@ -176,6 +186,7 @@
         #grøn2 {
             p {
                 padding-right: 30px;
+                padding-left: 120px;
             }
         }
     }
@@ -215,6 +226,286 @@
             }
         }
     }
+    }
+
+    .container3 {
+        .boks1 {
+            font-size: 50px;
+            height: 250px;
+        }
+        .boks3 {
+            p, h2 {
+                padding-right: 30px;
+                padding-left: 120px;
+            }
+        }
+        .boks4 {
+            #billede4 {
+                height: 300px;
+            }
+            #tekst {
+                flex-direction: column;
+                #pink {
+                    width: 100vw;
+                    h2, p {
+                        padding-left: 120px;
+                    }
+                }
+                #hvid {
+                    width: 100vw;
+                    margin-top: -40px;
+                }
+            }     
+        }
+        .boks5 {
+            flex-direction: column;
+            margin-top: 50px;
+            #tekst1 {
+                width: 100vw;
+                p, h2 {
+                    padding-left: 120px;
+                }
+            }
+            #tekst2 {
+                width: 100vw;
+                h2, p {
+                    padding-left: 120px;
+                }
+                h2 {
+                    padding-top: 30px;
+                }
+                #knap {
+                    margin-left: 120px;
+                }
+            }
+        }
+        .boks6 {
+            height: 300px;
+        }
+        .boks7 {
+            h2, p {
+                padding-left: 120px;
+                padding-right: 30px;
+            }
+        }
+        .boks9 {
+            #tekst {
+                flex-direction: column;
+                #pink {
+                    width: 100vw;
+                    h2, p {
+                        padding-left: 120px;    
+                    }
+                    #billede9 {
+                        margin-left: 120px;
+                        margin-bottom: 30px;
+                    }
+                }
+                #hvid {
+                    width: 100vw;
+                    h2, p {
+                        padding-left: 120px;
+                        padding-right: 30px;
+                    }
+                    #knap {
+                        margin-left: 120px;
+                    }
+                }
+            }
+        }
+        .boks10 {
+            height: 300px;
+        }
+        .boks11 {
+            h2, h3, p {
+                padding-right: 30px;
+                padding-left: 120px;
+            }
+        }
+        .boks12 {
+            flex-direction: column;
+
+            #pink {
+                width: 100vw;
+            }
+            #billede12 {
+                width: 100vw;
+                height: 400px;
+            }
+        }
+    }
+
+    .container4 {
+        .boks1 {
+            font-size: 50px;
+            height: 250px;
+        }
+        .boks3 {
+            height: 300px;
+        }
+        .boks4 {
+            #tekst {
+            h2, p {
+                padding-left: 120px;
+            }
+        }
+            #blå {
+                
+                flex-direction: column;
+                #skulptur {
+                width: 100vw;
+               #billede {
+                   margin-left: 120px;
+                   margin-top: 30px;
+               }
+               h2, h3, p {
+                padding-left: 120px;
+                padding-right: 30px;
+            }
+            #knap {
+                margin-left: 120px;
+                margin-right: 30px;
+            }
+
+                }
+                #kubeflex {
+                    width: 100vw;
+                    
+                    #billede {
+                        margin-left: 120px;
+                        margin-right: 30px;
+                    }
+                    h2, h3, p {
+                        padding-left: 120px;
+                        padding-right: 30px;
+                    }
+                    #knap {
+                        margin-left: 120px;
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+        .boks5 {
+            #tekst {
+            h2, p {
+                padding-left: 120px;
+            }
+        }
+            #hvid {
+                
+                flex-direction: column;
+                #dinudstilling {
+                width: 100vw;
+               #billede {
+                   margin-left: 120px;
+                   margin-top: 30px;
+               }
+               h2, h3, p {
+                padding-left: 120px;
+                padding-right: 30px;
+            }
+            #knap {
+                margin-left: 120px;
+                margin-right: 30px;
+            }
+
+                }
+                #richardm {
+                    width: 100vw;
+                    margin-left: 0px;
+                    
+                    #billede {
+                        margin-left: 120px;
+                        margin-right: 30px;
+                    }
+                    h2, h3, p {
+                        padding-left: 120px;
+                        padding-right: 30px;
+                    }
+                    #knap {
+                        margin-left: 120px;
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+        .boks6 {
+            h2, p {
+                padding-right: 30px;
+                padding-left: 120px;
+            }
+        }
+        .boks7 {
+            #vernerpanton {
+                height: 300px;
+            }
+        }
+        .boks8 {
+            #hvid {
+                h2, h3, p {
+                    padding-right: 30px;
+                }
+                #billede8 {
+                    height: 300px;
+                }
+            }
+        }
+        .boks9 {
+            flex-direction: column;
+
+            #tekst {
+                width: 100vw;
+                h2, p {
+                    padding-left: 120px;
+                }
+                #knap {
+                    margin-left: 120px;
+                }
+            }
+            #stol1 {
+                width: 100vw;
+                margin-left: 120px;
+            }
+        }
+        .boks10 {
+            height: 300px;
+        }
+        .boks11 {
+            h2, h3, p {
+                padding-left: 120px;
+                padding-right: 30px;
+            }
+        }
+        .boks12 {
+            #tekst {
+                p {
+                    padding-left: 120px;
+                    padding-right: 30px;
+                }
+            }
+            #boks {
+                #hvid {
+                    width: 100vw;
+                    height: 300px;
+                }
+                #blå {
+                    display: none;
+                }
+            }
+        }
+        .boks13 {
+            h2, h3, p {
+                padding-left: 120px;
+                padding-right: 30px;
+            }
+            #video {
+                padding-left: 120px;
+            }
+        }
+        .boks14 {
+            height: 300px;
+        }
     }
   }
   

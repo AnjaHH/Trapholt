@@ -557,11 +557,13 @@ html {
     h2 {
       font-family: $font-stack;
       padding-top: 30px;
+      padding-left: 160px;
     }
     p {
       font-family: $font-stack1;
       padding-top: 15px;
       padding-right: 30px;
+      padding-left: 160px;
     }
     }
     #billede5 {
@@ -588,6 +590,7 @@ html {
     padding-right: 160px;
    padding-bottom: 30px;
    padding-top: 50px;
+   padding-left: 160px;
     
   }
   }
@@ -850,7 +853,7 @@ html {
  }
  .boks3 {
   width: 100vw;
-  height: 600px;
+  height: auto;
   background-color: $quaternary-color;
   color: $primary-color;
 
@@ -858,7 +861,8 @@ html {
       font-family: $font-stack1;
       padding-left: 160px;
       padding-right: 160px;
-      padding-top: 30px;
+      padding-top: 10px;
+      margin-bottom: 15px;
       
     }
 
@@ -866,14 +870,15 @@ html {
       font-family: $font-stack;
       padding-left: 160px;
       padding-right: 160px;
-      padding-top: 30px;
+      padding-top: 15px;
       font-size: 40px;
+     
       }
  }
 
  .boks4 {
   width: 100vw;
-  height: 900px;
+  height: auto;
   display: flex;
   flex-direction: column;
 
@@ -888,13 +893,13 @@ html {
 
   #tekst {
   width: 100vw;
-  height: 300px;
+  height: auto;
   display: flex;
   flex-direction: row;
 
   #pink {
   width: 50vw;
-  height: 300px;
+  height: auto;
   background-color: $quaternary-color;
   color: $primary-color;
   
@@ -907,13 +912,14 @@ html {
   p {
     font-family: $font-stack1;
     padding-left: 160px;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-right: 30px;
+    padding-bottom: 15px;
   }
   }
   #hvid {
   width: 50vw;
-  height: 300px;
+  height: auto;
 
   #gulcirkel {
     width: 100px;
@@ -921,7 +927,7 @@ html {
     border-radius: 50%;
     background-color: $tertiary-color;
     position:relative ;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 200px;
     animation-name: gulcirkel;
     animation-duration: 4s;
@@ -942,7 +948,7 @@ html {
     border-radius: 50%;
     background-color: $secondary-color;
     position:relative ;
-    margin-top: -90px;
+    margin-top: -100px;
     margin-left: 300px;
     animation-name: grøncirkel;
     animation-duration: 4s;
@@ -980,13 +986,13 @@ html {
  }
  .boks5 {
   width: 100vw;
-  height: 450px;
+  height: auto;
   display: flex;
   flex-direction: row;
 
   #tekst1 {
   width: 50vw;
-  height: 450px;
+  height: auto;
   background-color: $quaternary-color;
 
   h2 {
@@ -999,13 +1005,14 @@ html {
   p {
     font-family: $font-stack1;
     padding-left: 160px;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-right: 30px;
+    padding-bottom: 15px;
   }
  }
  #tekst2 {
   width: 50vw;
-  height: 450px;
+  height: auto;
 
   h2 {
     font-family: $font-stack1;
@@ -1047,7 +1054,7 @@ html {
 
  .boks7 {
   width: 100vw;
-  height: 350px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1065,14 +1072,14 @@ html {
 
  .boks8 {
   width: 100vw;
-  height: 700px;
+  height: auto;
   color: $primary-color;
   display: flex;
   flex-direction: row;
 
   #hvid {
     width: 100vw;
-    height: 700px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1092,12 +1099,12 @@ html {
 
  .boks9 {
   width: 100vw;
-  height: 900px;
+  height: auto;
   color: $primary-color;
 
   #tekst {
   width: 100vw;
-  height: 900px;
+  height: auto;
   color: $primary-color;
   display: flex;
   flex-direction: row;
@@ -1105,7 +1112,7 @@ html {
   #pink {
   background-color: $quaternary-color;
   width: 50vw;
-  height: 900px;
+  height: auto;
 
   h2 {
     font-family: $font-stack1;
@@ -1173,14 +1180,15 @@ html {
   height: 600px;
   background-image: url(../images/designbutik.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
  }
 
  .boks11 {
   width: 100vw;
-  height: 600px;
+  height: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   
 
@@ -1188,7 +1196,7 @@ html {
   h2 {
     font-family: $font-stack;
     font-size: 40px;
-    padding-left: 30px;
+   
     padding-top: 30px;
   }
   h3 {
@@ -1215,21 +1223,21 @@ html {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    margin-bottom: 15px; 
+    margin-bottom: 25px; 
     margin-left:50px ;
    }
  }
 
  .boks12 {
   width: 100vw;
-  height: 600px;
+  height: auto;
   background-color: $quaternary-color;
   display: flex;
   flex-direction: row;
 
   #pink {
     width: 30vw;
-    height: 600px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1253,7 +1261,7 @@ html {
       justify-content: center;
       align-items: center;
       font-size: 30px;
-      margin-bottom: 15px; 
+      margin-bottom: 25px; 
       
      }
   }
@@ -1315,13 +1323,13 @@ html {
  
   .boks4 {
    width: 100vw;
-   height: 1000px;
+   height: auto;
    display: flex;
    flex-direction: column;
 
    #tekst {
     width: 100vw;
-    height: 200px;
+    height: auto;
    h2 {
    font-family: $font-stack;
    padding-left: 160px;
@@ -1331,13 +1339,14 @@ html {
    p {
      font-family: $font-stack1;
      padding-left: 160px;
-     padding-top: 15px;
+     padding-top: 10px;
      padding-right: 30px;
+     padding-bottom: 15px;
    }
   }
    #blå {
     width: 100vw;
-    height: 550px;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -1449,14 +1458,14 @@ html {
  }
   .boks5 {
    width: 100vw;
-   height: 300px;
+   height: auto;
    display: flex;
    flex-direction: row;
 
  
    #hvid {
     width: 100vw;
-    height: 40px;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -1517,6 +1526,7 @@ html {
     align-items: center;
     flex-direction: column;
     margin-top: 30px;
+    margin-left: 10px;
 
     #billede {
       width: 450px;
@@ -1561,7 +1571,7 @@ html {
   }
   .boks6{
    width: 100vw;
-   height: 200px;
+   height: auto;
    background-color: $quinary-color;
   
     h2 {
@@ -1574,8 +1584,9 @@ html {
     p {
       font-family: $font-stack1;
       padding-left: 160px;
-      padding-top: 15px;
+      padding-top: 10px;
       padding-right: 160px;
+      padding-bottom: 15px;
       
    }
   }
@@ -1596,20 +1607,20 @@ html {
  
   .boks8 {
    width: 100vw;
-   height: 1096px;
+   height: auto;
    color: $primary-color;
    display: flex;
    flex-direction: row;
  
    #blå {
     width: 20vw;
-    height: 1096px;
+    height: auto;
     background-color: $quinary-color;
     
     }
     #hvid {
     width: 80vw;
-    height: 100vh;
+    height: auto;
 
     h2 {
       font-family: $font-stack;
@@ -1639,7 +1650,7 @@ html {
      width: 80vw;
      height: 575px;
      background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: $quinary-color;
     
    }
@@ -1648,7 +1659,7 @@ html {
  
   .boks9 {
    width: 100vw;
-   height: 400px;
+   height: auto;
    color: $primary-color;
    background-color: $quinary-color;
    display: flex;
@@ -1656,13 +1667,13 @@ html {
 
    #blå {
     width: 20vw;
-    height: 400px;
+    height: auto;
     background-color: $quinary-color;
    }
  
    #tekst {
     width: 50vw;
-   height: 400px;
+   height: auto;
    color: $primary-color;
    
    h2 {
@@ -1694,7 +1705,7 @@ html {
 
   #stol1 {
     width: 30vw;
-    height: 400px;
+    height: auto;
     background-color: $quinary-color;
 
     #billede9 {
@@ -1731,7 +1742,7 @@ html {
  
   .boks11 {
    width: 100vw;
-   height: 550px;
+   height: auto;
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -1764,13 +1775,13 @@ html {
   }
   .boks12 {
    width: 100vw;
-   height: 600px;
+   height: auto;
    display: flex;
    flex-direction: column;
    
    #tekst {
     width: 100vw;
-    height: 260px;
+    height: auto;
     background-color: $quinary-color;
    
    p {
@@ -1783,13 +1794,13 @@ html {
   }
   #boks {
     width: 100vw;
-    height: 300px;
+    height: auto;
     display: flex;
     flex-direction: row;
 
     #hvid {
       width: 70vw;
-      height: auto;
+      height: 500px;
       background-image: url(../images/art9.jpg);
       background-repeat: no-repeat;
       background-size: cover;
@@ -1804,7 +1815,7 @@ html {
 
   .boks13 {
    width: 100vw;
-   height: 720px;
+   height: auto;
 
    h2 {
     font-family: $font-stack;
@@ -1846,14 +1857,14 @@ html {
 
   .boks15 {
     width: 100vw;
-    height: 1250px;
+    height: auto;
     background-color: $quinary-color;
     display: flex;
     flex-direction: column;
 
     #tekst {
       width: 100vw;
-      height: 150px;
+      height: auto;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1867,7 +1878,7 @@ html {
     }
     #blå {
       width: 100vw;
-      height: 500px;
+      height: auto;
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -1990,7 +2001,7 @@ html {
      }
      #blå1 {
       width: 100vw;
-      height: 600px;
+      height: auto;
       display: flex;
       align-items: center;
       flex-direction: row;

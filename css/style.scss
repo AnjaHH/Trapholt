@@ -235,7 +235,7 @@ html {
 
     #tekst6 {
       width: 100vw;
-      height: 100vh;
+      height: auto;
       font-family: $font-stack1;
       color: $primary-color;
       display: flex;
@@ -767,7 +767,7 @@ html {
 
  .boks12 {
   width: 100vw;
-  height: 600px;
+  height: auto;
   
   #billede12 {
     background-repeat: no-repeat;
@@ -780,11 +780,11 @@ html {
     
     #tekst1 {
     width: 20vw;
-    height: 600px;
+    height: auto;
     }
     #tekst2 {
     width: 80vw;
-    height: 200px;
+    height: auto;
     padding-top: 150px;
     color: $primary-color;
     font-family: $font-stack1;
@@ -797,6 +797,7 @@ html {
     }
     p {
     padding-left: 30px;
+    padding-top: 10px;
     }
     }
   }
@@ -1872,7 +1873,9 @@ html {
       h2 {
         font-family: $font-stack;
         font-size: 40px;
-        margin-bottom: -20px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        
         
       }
     }
@@ -2080,12 +2083,12 @@ html {
 
       #blå {
         width: 30vw;
-        height: 735px;
+        height: auto;
         background-color: $quinary-color;
       }
       #hvid {
         width: 70vw;
-        height: 200px;
+        height: auto;
 
         h2 {
           font-family: $font-stack;

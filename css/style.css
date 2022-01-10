@@ -708,6 +708,7 @@ html {
 .container1 .boks2 .åbningstider h2 {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
+  padding-top: 30px;
 }
 
 .container1 .boks2 .åbningstider p {
@@ -717,7 +718,7 @@ html {
 
 .container1 .boks3 {
   width: 100vw;
-  height: 400px;
+  height: auto;
   background-color: #FFF9B6;
 }
 
@@ -730,7 +731,6 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 15px;
   margin-top: 75px;
   margin-left: 150px;
 }
@@ -742,6 +742,7 @@ html {
 
 .container1 .boks3 #priser p {
   font-family: "Jura", sans-serif;
+  padding-bottom: 15px;
 }
 
 .container1 .boks4 {
@@ -754,7 +755,7 @@ html {
 
 .container1 .boks5 {
   width: 100vw;
-  height: 450px;
+  height: auto;
   background-color: #FFF9B6;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -795,7 +796,7 @@ html {
 
 .container1 .boks5 #tekst5 {
   width: 50vw;
-  height: 50vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1851,7 +1852,7 @@ html {
 
 .container3 .boks6 {
   width: 100vw;
-  height: 563px;
+  height: 600px;
   background-image: url(../images/cafe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1975,7 +1976,7 @@ html {
 
 .container3 .boks9 #hvid {
   width: 50vw;
-  height: 900px;
+  height: auto;
 }
 
 .container3 .boks9 #hvid h2 {
@@ -2764,6 +2765,10 @@ html {
   padding-bottom: 30px;
 }
 
+.container4 .boks11 #video {
+  padding-bottom: 30px;
+}
+
 .container4 .boks12 {
   width: 100vw;
   height: auto;
@@ -3188,6 +3193,9 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
+  .menubar .menubar2 {
+    display: none;
+  }
   .wrapper {
     padding-left: 30px;
   }
@@ -3329,6 +3337,8 @@ html {
   }
   .container2 .boks4 #booking #knap {
     margin-left: 120px;
+    width: 250px;
+    font-size: 25px;
   }
   .container2 .boks5 #grøn1 {
     -webkit-box-orient: vertical;
@@ -3345,6 +3355,7 @@ html {
   .container2 .boks5 #grøn1 #billede5 {
     width: 70vw;
     margin-left: 120px;
+    margin-right: 30px;
   }
   .container2 .boks5 #grøn2 p {
     padding-right: 30px;
@@ -3362,6 +3373,8 @@ html {
   }
   .container2 .boks8 #grøn1 #billede8 {
     margin-left: 120px;
+    width: 70vw;
+    margin-right: 30px;
   }
   .container2 .boks9 #billede9 {
     height: 300px;
@@ -3399,6 +3412,9 @@ html {
     width: 100vw;
     margin-top: -40px;
   }
+  .container3 .boks4 #tekst #hvid #gulcirkel, .container3 .boks4 #tekst #hvid #grøncirkel, .container3 .boks4 #tekst #hvid #billede7 {
+    margin-left: 120px;
+  }
   .container3 .boks5 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3423,6 +3439,7 @@ html {
   }
   .container3 .boks5 #tekst2 #knap {
     margin-left: 120px;
+    width: 250px;
   }
   .container3 .boks6 {
     height: 300px;
@@ -3463,6 +3480,10 @@ html {
   .container3 .boks11 h2, .container3 .boks11 h3, .container3 .boks11 p {
     padding-right: 30px;
     padding-left: 120px;
+  }
+  .container3 .boks11 #knap {
+    margin-left: 120px;
+    width: 250px;
   }
   .container3 .boks12 {
     -webkit-box-orient: vertical;
@@ -3590,10 +3611,11 @@ html {
   }
   .container4 .boks9 #tekst #knap {
     margin-left: 120px;
+    width: 250px;
   }
   .container4 .boks9 #stol1 {
     width: 100vw;
-    margin-left: 120px;
+    margin-left: 90px;
   }
   .container4 .boks10 {
     height: 300px;
@@ -3618,7 +3640,7 @@ html {
     padding-right: 30px;
   }
   .container4 .boks13 #video {
-    padding-left: 120px;
+    padding-left: 30px;
   }
   .container4 .boks14 {
     height: 300px;
@@ -3677,6 +3699,8 @@ html {
   }
   .container4 .boks15 #blå1 #touch #billede {
     width: 70vw;
+    margin-left: 120px;
+    margin-right: 30px;
   }
   .container4 .boks15 #blå1 #touch #knap {
     margin-bottom: 30px;
@@ -3701,7 +3725,7 @@ html {
     padding-right: 30px;
   }
   .container4 .boks17 #hvid #billede17 {
-    width: 100vw;
+    width: 80vw;
     height: 300px;
   }
 }

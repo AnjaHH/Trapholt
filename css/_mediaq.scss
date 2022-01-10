@@ -1,4 +1,10 @@
 @media only screen and (max-width: 600px) {
+
+    .menubar {
+    .menubar2 {
+        display: none;
+    }
+}
   
     .wrapper {
       padding-left: 30px;
@@ -169,6 +175,8 @@
                 justify-content: flex-start;
                #knap {
                    margin-left: 120px;
+                   width: 250px;
+                   font-size: 25px;
                }
                 
             }
@@ -186,6 +194,7 @@
             #billede5 {
                 width: 70vw;
                 margin-left: 120px;
+                margin-right: 30px;
             }
         }
         #grøn2 {
@@ -207,6 +216,8 @@
             }
             #billede8 {
                 margin-left: 120px;
+                width: 70vw;
+                margin-right: 30px;
             }
         }
 
@@ -259,6 +270,10 @@
                 #hvid {
                     width: 100vw;
                     margin-top: -40px;
+
+                    #gulcirkel, #grøncirkel, #billede7 {
+                        margin-left: 120px;
+                    }
                 }
             }     
         }
@@ -281,6 +296,7 @@
                 }
                 #knap {
                     margin-left: 120px;
+                    width: 250px;
                 }
             }
         }
@@ -325,6 +341,10 @@
             h2, h3, p {
                 padding-right: 30px;
                 padding-left: 120px;
+            }
+            #knap {
+                margin-left: 120px;
+                width: 250px;
             }
         }
         .boks12 {
@@ -466,11 +486,12 @@
                 }
                 #knap {
                     margin-left: 120px;
+                    width: 250px;
                 }
             }
             #stol1 {
                 width: 100vw;
-                margin-left: 120px;
+                margin-left: 90px;
             }
         }
         .boks10 {
@@ -482,6 +503,7 @@
                 padding-right: 30px;
             }
         }
+       
         .boks12 {
             #tekst {
                 p {
@@ -505,7 +527,7 @@
                 padding-right: 30px;
             }
             #video {
-                padding-left: 120px;
+                padding-left: 30px
             }
         }
         .boks14 {
@@ -565,6 +587,8 @@
 
                     #billede {
                         width: 70vw;
+                        margin-left: 120px;
+                        margin-right: 30px;
                     }
                     #knap {
                         margin-bottom: 30px;
@@ -592,7 +616,7 @@
                     padding-right: 30px;
                 }
                 #billede17 {
-                    width: 100vw;
+                    width: 80vw;
                     height: 300px;
                 }
             }

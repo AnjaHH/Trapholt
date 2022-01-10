@@ -141,6 +141,7 @@ html {
       h2 {
         font-family: $font-stack;
         font-size: 40px;
+        padding-top: 30px;
       }
       p {
         font-family: $font-stack1;
@@ -152,7 +153,7 @@ html {
   
   .boks3 {
     width: 100vw;
-    height: 400px;
+    height: auto;
     background-color: $tertiary-color;
     
 
@@ -160,7 +161,7 @@ html {
     color: $primary-color;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    
     margin-top: 75px;
     margin-left: 150px;
 
@@ -170,6 +171,7 @@ html {
     }
     p {
       font-family: $font-stack1;
+      padding-bottom: 15px;
       
       
     }
@@ -184,7 +186,7 @@ html {
   }
   .boks5 {
     width: 100vw;
-    height: 450px;
+    height: auto;
     background-color: $tertiary-color;
     display: flex;
     flex-direction: row;
@@ -211,7 +213,7 @@ html {
 
     #tekst5 {
       width: 50vw;
-      height: 50vh;
+      height: auto;
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -1047,7 +1049,7 @@ html {
  }
  .boks6{
   width: 100vw;
-  height: 563px;
+  height: 600px;
   background-image: url(../images/cafe.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1142,7 +1144,7 @@ html {
 }
   #hvid {
   width: 50vw;
-  height: 900px;
+  height: auto;
   
   h2 {
     font-family: $font-stack1;
@@ -1764,7 +1766,9 @@ html {
     padding-right: 160px;
     padding-bottom: 30px;
  }
-
+ #video {
+   padding-bottom: 30px;
+ }
   }
   .boks12 {
    width: 100vw;

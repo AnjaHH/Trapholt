@@ -792,6 +792,8 @@ html {
   height: 267px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .container1 .boks5 #tekst5 {
@@ -813,8 +815,8 @@ html {
   height: auto;
   font-family: "Jura", sans-serif;
   color: #0C3F6A;
-  margin-top: 110px;
-  margin-left: -50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .container1 .boks6 {

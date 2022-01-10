@@ -195,9 +195,9 @@ html {
 
     #billede5 {
       width: 50vw;
-      height: 50vh;
+      height: auto;
       display: flex;
-      
+
       align-items: center;
       margin-left: 160px;
 
@@ -220,7 +220,7 @@ html {
 
       p {
         width: 40vw;
-        height: 50vh;
+        height: auto;
         font-family: $font-stack1;
         color: $primary-color;
         margin-top: 110px;

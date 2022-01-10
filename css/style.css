@@ -774,7 +774,7 @@ html {
 
 .container1 .boks5 #billede5 {
   width: 50vw;
-  height: 50vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -810,7 +810,7 @@ html {
 
 .container1 .boks5 #tekst5 p {
   width: 40vw;
-  height: 50vh;
+  height: auto;
   font-family: "Jura", sans-serif;
   color: #0C3F6A;
   margin-top: 110px;
@@ -3325,6 +3325,7 @@ html {
   .container2 .boks4 #billede4 {
     margin-left: 120px;
     width: 70vw;
+    margin-right: 30px;
   }
   .container2 .boks4 p, .container2 .boks4 h2 {
     padding-right: 30px;
@@ -3473,6 +3474,7 @@ html {
   }
   .container3 .boks9 #tekst #hvid #knap {
     margin-left: 120px;
+    width: 250px;
   }
   .container3 .boks10 {
     height: 300px;
@@ -3638,9 +3640,6 @@ html {
   .container4 .boks13 h2, .container4 .boks13 h3, .container4 .boks13 p {
     padding-left: 120px;
     padding-right: 30px;
-  }
-  .container4 .boks13 #video {
-    padding-left: 30px;
   }
   .container4 .boks14 {
     height: 300px;

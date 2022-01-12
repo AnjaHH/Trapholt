@@ -1379,7 +1379,7 @@ html {
 
 .container2 .boks10 {
   width: 100vw;
-  height: 275px;
+  height: auto;
   background-color: #96C7C1;
   color: #0C3F6A;
   font-family: "Jura", sans-serif;
@@ -1394,12 +1394,12 @@ html {
 
 .container2 .boks10 #grøn {
   width: 20vw;
-  height: 100vh;
+  height: auto;
 }
 
 .container2 .boks10 #grøn1 {
   width: 80vw;
-  height: 100vh;
+  height: auto;
 }
 
 .container2 .boks10 #grøn1 h2 {
@@ -1411,7 +1411,8 @@ html {
 
 .container2 .boks10 #grøn1 p {
   padding-left: 30px;
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   font-family: "Jura", sans-serif;
 }
 
@@ -3210,6 +3211,7 @@ html {
   .one h1, .three h1, .five h1, .seven h1, .nine h1 {
     width: 80vw;
     font-size: 35px;
+    opacity: 1;
   }
   .two, .four, .six, .eight, .ten {
     width: 80vw;
@@ -3220,6 +3222,7 @@ html {
   .two h1, .four h1, .six h1, .eight h1, .ten h1 {
     width: 80vw;
     font-size: 35px;
+    opacity: 1;
   }
   .container1 .boks1 {
     font-size: 50px;

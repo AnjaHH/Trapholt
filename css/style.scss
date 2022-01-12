@@ -706,7 +706,7 @@ html {
 
  .boks10 {
   width: 100vw;
-  height: 275px;
+  height: auto;
   background-color: $secondary-color;
   color: $primary-color;
   font-family: $font-stack1;
@@ -715,11 +715,11 @@ html {
 
   #grøn {
     width: 20vw;
-    height: 100vh;
+    height: auto;
   }
   #grøn1 {
     width: 80vw;
-    height: 100vh;
+    height: auto;
     
   h2 {
     padding-left: 30px;
@@ -729,7 +729,8 @@ html {
   }
   p {
     padding-left: 30px;
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     font-family: $font-stack1;
   }
   }
